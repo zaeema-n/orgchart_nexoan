@@ -1,0 +1,24 @@
+transaction_id,parent,parent_type,child,child_type,rel_type,date
+2290-17_tr_01,"Minister of Public Administration, Home Affairs, Provincial Councils and Local Government",minister,Dinesh Chandra Rupasingha Gunawardena,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_02,Minister of Fisheries,minister,Douglas Devananda,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_03,Minister of Education,minister,Achchige Don Susil Premajayanth,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_04,Minister of Transport and Highways,minister,Bandula Gunawardena,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_05,Minister of Mass Media,minister,Bandula Gunawardena,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_06,Minister of Health,minister,Keheliya Rambukwella,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_07,Minister of Water Supply,minister,Keheliya Rambukwella,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_08,Minister of Agriculture,minister,Mahinda Amaraweera,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_09,Minister of Wildlife and Forest Resources Conservation,minister,Mahinda Amaraweera,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_10,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Wijayadasa Rajapaksha,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_11,Minister of Tourism and Lands,minister,Nalaka Jude Hareen Fernando,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_12,Minister of Plantation Industries,minister,Ramesh Pathirana,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_13,Minister of Industries,minister,Ramesh Pathirana,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_14,Minister of Urban Development and Housing,minister,Prasanna Ranatunga,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_15,Minister of Foreign Affairs,minister,M U M Ali Sabri,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_16,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,Vidura Wikramanayaka,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_17,Minister of Power and Energy,minister,Kanchana Wijesekera,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_18,Minister of Environment,minister,Ahamed Zenulabdeen Naseer,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_19,Minister of Sports and Youth Affairs,minister,Anuruddha Ranasinghe Arachchige Roshan,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_20,Minister of Irrigation,minister,Anuruddha Ranasinghe Arachchige Roshan,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_21,Minister of Labour and Foreign Employment,minister,Maligaspe Koralege Nalin Manusha Nanayakkara,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_22,Minister of Public Security,minister,Tiran Alles,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_23,"Minister of Trade, Commerce and Food Security",minister,Kachchakaduge Nalin Ruwanjiwa Fernando,citizen,AS_APPOINTED,2022-07-26

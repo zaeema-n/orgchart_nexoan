@@ -109,7 +109,6 @@ func (c *Client) ProcessTransactions(dataDir string, processType string) error {
 				if err != nil {
 					return fmt.Errorf("failed to process add transaction %s: %w", transaction["transaction_id"], err)
 				}
-				//entityCounters[childType] = newCounter
 				fmt.Printf("Processed Add transaction: %s\n", transaction["transaction_id"])
 			} else {
 				fmt.Printf("Skipping transaction %s: type %s does not match process type %s\n",

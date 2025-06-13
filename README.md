@@ -120,8 +120,18 @@ The tool uses two main API endpoints:
 
 ### Insert Minister Department
 
+Note that when you give the directory path it must be the directory in which 
+the `ADD`, `MOVE`, `MERGE`, `RENAME` and `TERMINATE` csv files are located. 
+
+### Adding Organization Data for OrgChart
+
 ```bash
 ./orgchart -data $(pwd)/data/orgchart/akd/2024-09-27/ -init true
+```
+
+### Adding Person Data for OrgChart
+
+```bash
 ./orgchart -data $(pwd)/data/people/akd/2024-09-25/ -type person
 ```
 

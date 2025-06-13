@@ -698,7 +698,7 @@ func (c *Client) AddPersonEntity(transaction map[string]interface{}, entityCount
 	}
 
 	var childID string
-	entityCounter := 0
+
 	if len(personResults) == 1 {
 		// Person exists, use existing ID
 		childID = personResults[0].ID
@@ -709,8 +709,8 @@ func (c *Client) AddPersonEntity(transaction map[string]interface{}, entityCount
 		}
 
 		prefix := fmt.Sprintf("%s_%s", transactionID[:7], strings.ToLower(childType[:3]))
-		entityCounter := entityCounters[childType] + 1
-		newEntityID := fmt.Sprintf("%s_%d", prefix, entityCounter)
+		entityCounters[childType] = entityCounters[childType] + 1
+		newEntityID := fmt.Sprintf("%s_%d", prefix, entityCounters[childType])
 
 		// Create the new child entity
 		childEntity := &models.Entity{
@@ -766,7 +766,7 @@ func (c *Client) AddPersonEntity(transaction map[string]interface{}, entityCount
 		return 0, fmt.Errorf("failed to update parent entity: %w", err)
 	}
 
-	return entityCounter, nil
+	return entityCounters[childType] + 1, nil
 }
 
 // TerminatePersonEntity terminates a specific relationship between Person type entity and another entity at a given date

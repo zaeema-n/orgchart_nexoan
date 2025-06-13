@@ -1,0 +1,486 @@
+transaction_id,parent,parent_type,child,child_type,rel_type,date
+2289-43_tr_01,Government of Sri Lanka,government,Minister of Defence,minister,AS_MINISTER,2022-07-22
+2289-43_tr_02,Government of Sri Lanka,government,"Minister of Finance, Economic Stabilization and National Policies",minister,AS_MINISTER,2022-07-22
+2289-43_tr_03,Government of Sri Lanka,government,Minister of Technology,minister,AS_MINISTER,2022-07-22
+2289-43_tr_04,Government of Sri Lanka,government,"Minister of Women, Child Affairs and Social Empowerment",minister,AS_MINISTER,2022-07-22
+2289-43_tr_05,Government of Sri Lanka,government,"Minister of Ports, Shipping and Aviation",minister,AS_MINISTER,2022-07-22
+2289-43_tr_06,Government of Sri Lanka,government,Minister of Investment Promotion,minister,AS_MINISTER,2022-07-22
+2289-43_tr_07,Government of Sri Lanka,government,"Minister of Public Administration, Home Affairs, Provincial Councils and Local Government",minister,AS_MINISTER,2022-07-22
+2289-43_tr_08,Government of Sri Lanka,government,Minister of Fisheries,minister,AS_MINISTER,2022-07-22
+2289-43_tr_09,Government of Sri Lanka,government,Minister of Education,minister,AS_MINISTER,2022-07-22
+2289-43_tr_10,Government of Sri Lanka,government,Minister of Transport and Highways,minister,AS_MINISTER,2022-07-22
+2289-43_tr_11,Government of Sri Lanka,government,Minister of Mass Media,minister,AS_MINISTER,2022-07-22
+2289-43_tr_12,Government of Sri Lanka,government,Minister of Health,minister,AS_MINISTER,2022-07-22
+2289-43_tr_13,Government of Sri Lanka,government,Minister of Water Supply,minister,AS_MINISTER,2022-07-22
+2289-43_tr_14,Government of Sri Lanka,government,Minister of Agriculture,minister,AS_MINISTER,2022-07-22
+2289-43_tr_15,Government of Sri Lanka,government,Minister of Wildlife and Forest Resources Conservation,minister,AS_MINISTER,2022-07-22
+2289-43_tr_16,Government of Sri Lanka,government,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,AS_MINISTER,2022-07-22
+2289-43_tr_17,Government of Sri Lanka,government,Minister of Tourism and Lands,minister,AS_MINISTER,2022-07-22
+2289-43_tr_18,Government of Sri Lanka,government,Minister of Plantation Industries,minister,AS_MINISTER,2022-07-22
+2289-43_tr_19,Government of Sri Lanka,government,Minister of Industries,minister,AS_MINISTER,2022-07-22
+2289-43_tr_20,Government of Sri Lanka,government,Minister of Urban Development and Housing,minister,AS_MINISTER,2022-07-22
+2289-43_tr_21,Government of Sri Lanka,government,Minister of Foreign Affairs,minister,AS_MINISTER,2022-07-22
+2289-43_tr_22,Government of Sri Lanka,government,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,AS_MINISTER,2022-07-22
+2289-43_tr_23,Government of Sri Lanka,government,Minister of Power and Energy,minister,AS_MINISTER,2022-07-22
+2289-43_tr_24,Government of Sri Lanka,government,Minister of Environment,minister,AS_MINISTER,2022-07-22
+2289-43_tr_25,Government of Sri Lanka,government,Minister of Sports and Youth Affairs,minister,AS_MINISTER,2022-07-22
+2289-43_tr_26,Government of Sri Lanka,government,Minister of Irrigation,minister,AS_MINISTER,2022-07-22
+2289-43_tr_27,Government of Sri Lanka,government,Minister of Labour and Foreign Employment,minister,AS_MINISTER,2022-07-22
+2289-43_tr_28,Government of Sri Lanka,government,Minister of Public Security,minister,AS_MINISTER,2022-07-22
+2289-43_tr_29,Government of Sri Lanka,government,"Minister of Trade, Commerce and Food Security",minister,AS_MINISTER,2022-07-22
+2289-43_tr_30,Minister of Defence,minister,Office of the Chief of Defence Staff,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_31,Minister of Defence,minister,Sri Lanka Army,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_32,Minister of Defence,minister,Sri Lanka Navy,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_33,Minister of Defence,minister,Sri Lanka Air Force,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_34,Minister of Defence,minister,State Intelligence Service,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_35,Minister of Defence,minister,Civil Security Department,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_36,Minister of Defence,minister,Department of Multipurpose Development Task Force,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_37,Minister of Defence,minister,National Cadet Corps,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_38,Minister of Defence,minister,National Authority for the Implementation of Chemical Weapons Convention,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_39,Minister of Defence,minister,Sir John Kotelawala Defence University,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_40,Minister of Defence,minister,Defence Services Command and Staff College,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_41,Minister of Defence,minister,Miloda Institute - as a Faculty of Kotelawala Defence University,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_42,Minister of Defence,minister,Defence Services School,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_43,Minister of Defence,minister,Defence Research and Development Centre,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_44,Minister of Defence,minister,Institute of National Security Studies,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_45,Minister of Defence,minister,National Defence College,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_46,Minister of Defence,minister,Rakna Arakshana Lanka Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_47,Minister of Defence,minister,Coast Guard Department of Sri Lanka,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_48,Minister of Defence,minister,National Dangerous Drugs Control Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_49,Minister of Defence,minister,National Defence Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_50,Minister of Defence,minister,Ranaviru Seva Authority,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_51,Minister of Defence,minister,Api Wenuwen Api Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_52,Minister of Defence,minister,Department of Meteorology,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_53,Minister of Defence,minister,National Disaster Management Council,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_54,Minister of Defence,minister,Disaster Management Centre,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_55,Minister of Defence,minister,National Disaster Relief Services Centre,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_56,Minister of Defence,minister,National Building Research Organization,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_57,Minister of Defence,minister,Telecommunication Regulatory Commission of Sri Lanka and Allied Institutions,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_58,"Minister of Finance, Economic Stabilization and National Policies",minister,National Planning Department,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_59,"Minister of Finance, Economic Stabilization and National Policies",minister,Department of Project Management and Monitoring,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_60,"Minister of Finance, Economic Stabilization and National Policies",minister,Department of External Resources,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_61,"Minister of Finance, Economic Stabilization and National Policies",minister,State Resources Management Corporation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_62,"Minister of Finance, Economic Stabilization and National Policies",minister,General Treasury,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_63,"Minister of Finance, Economic Stabilization and National Policies",minister,Department of Fiscal Policy,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_64,"Minister of Finance, Economic Stabilization and National Policies",minister,Department of National Budget,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_65,"Minister of Finance, Economic Stabilization and National Policies",minister,Department of Management Services,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_66,"Minister of Finance, Economic Stabilization and National Policies",minister,Department of Public Finance,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_67,"Minister of Finance, Economic Stabilization and National Policies",minister,Department of Treasury Operations,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_68,"Minister of Finance, Economic Stabilization and National Policies",minister,Department of State Accounts,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_69,"Minister of Finance, Economic Stabilization and National Policies",minister,Department of Trade and Investment Policies,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_70,"Minister of Finance, Economic Stabilization and National Policies",minister,Department of Information Technology Management,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_71,"Minister of Finance, Economic Stabilization and National Policies",minister,Department of Legal Affairs,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_72,"Minister of Finance, Economic Stabilization and National Policies",minister,Department of Management Audit,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_73,"Minister of Finance, Economic Stabilization and National Policies",minister,Department of Development Finance,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_74,"Minister of Finance, Economic Stabilization and National Policies",minister,Department of Public Enterprises,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_75,"Minister of Finance, Economic Stabilization and National Policies",minister,Office of Comptroller General,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_76,"Minister of Finance, Economic Stabilization and National Policies",minister,Department of Inland Revenue,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_77,"Minister of Finance, Economic Stabilization and National Policies",minister,Sri Lanka Customs,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_78,"Minister of Finance, Economic Stabilization and National Policies",minister,Department of Excise,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_79,"Minister of Finance, Economic Stabilization and National Policies",minister,National Lotteries Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_80,"Minister of Finance, Economic Stabilization and National Policies",minister,Development Lotteries Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_81,"Minister of Finance, Economic Stabilization and National Policies",minister,Department of Valuation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_82,"Minister of Finance, Economic Stabilization and National Policies",minister,Import and Export Control Department,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_83,"Minister of Finance, Economic Stabilization and National Policies",minister,Sri Lanka Export Development Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_84,"Minister of Finance, Economic Stabilization and National Policies",minister,Central Bank of Sri Lanka,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_85,"Minister of Finance, Economic Stabilization and National Policies",minister,"All State Banks, Financial Institutions, Insurance Companies and their subsidiaries and related institutions",department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_86,"Minister of Finance, Economic Stabilization and National Policies",minister,Insurance Regulatory Commission of Sri Lanka,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_87,"Minister of Finance, Economic Stabilization and National Policies",minister,Sri Lanka Insurance Corporation and its subsidiaries and affiliated companies,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_88,"Minister of Finance, Economic Stabilization and National Policies",minister,Credit Information Bureau,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_89,"Minister of Finance, Economic Stabilization and National Policies",minister,Department of the Registrar of Companies,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_90,"Minister of Finance, Economic Stabilization and National Policies",minister,Securities and Exchange Commission of Sri Lanka,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_91,"Minister of Finance, Economic Stabilization and National Policies",minister,Sri Lanka Accounting and Auditing Standard Monitoring Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_92,"Minister of Finance, Economic Stabilization and National Policies",minister,Public Utilities Commission of Sri Lanka,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_93,"Minister of Finance, Economic Stabilization and National Policies",minister,Sri Lanka Export Credit Insurance Corporation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_94,"Minister of Finance, Economic Stabilization and National Policies",minister,Housing Development Finance Corporation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_95,"Minister of Finance, Economic Stabilization and National Policies",minister,State Mortgage and Investment Bank,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_96,"Minister of Finance, Economic Stabilization and National Policies",minister,Regional Development Bank,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_97,"Minister of Finance, Economic Stabilization and National Policies",minister,Tax Appeals Commission,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_98,"Minister of Finance, Economic Stabilization and National Policies",minister,Department of Census and Statistics,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_99,"Minister of Finance, Economic Stabilization and National Policies",minister,Institute of Policy Studies,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_100,"Minister of Finance, Economic Stabilization and National Policies",minister,Sustainable Development Council,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_101,"Minister of Finance, Economic Stabilization and National Policies",minister,Welfare Benefits Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_102,"Minister of Finance, Economic Stabilization and National Policies",minister,Public Service Mutual Provident Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_103,"Minister of Finance, Economic Stabilization and National Policies",minister,"Strike, Riot, Civil Commotion and Terrorism Fund",department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_104,"Minister of Finance, Economic Stabilization and National Policies",minister,National Insurance Trust Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_105,"Minister of Finance, Economic Stabilization and National Policies",minister,Employees’ Trust Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_106,"Minister of Finance, Economic Stabilization and National Policies",minister,Lady Lochore Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_107,"Minister of Finance, Economic Stabilization and National Policies",minister,Board of Investment of Sri Lanka,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_108,"Minister of Finance, Economic Stabilization and National Policies",minister,Colombo Port City Economic Commission,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_109,"Minister of Finance, Economic Stabilization and National Policies",minister,Department of Telecommunications,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_110,"Minister of Finance, Economic Stabilization and National Policies",minister,Wildlife Trust,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_111,"Minister of Finance, Economic Stabilization and National Policies",minister,Sri Lanka Media Training Institute,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_112,"Minister of Finance, Economic Stabilization and National Policies",minister,Department of Internal Trade,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_113,"Minister of Finance, Economic Stabilization and National Policies",minister,"Pulse Crops, Grain Research and Production Authority",department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_114,"Minister of Finance, Economic Stabilization and National Policies",minister,Janatha Fertilizer Enterprises Ltd,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_115,"Minister of Finance, Economic Stabilization and National Policies",minister,Protection of Children National Trust Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_116,"Minister of Finance, Economic Stabilization and National Policies",minister,Institutions coming under the Revival (Removal) of Underperforming Enterprises or Underutilized Assets Act vested to the Secretary to the Treasury,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_117,Minister of Technology,minister,Department of Registration of Persons,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_118,Minister of Technology,minister,Information and Communication Technology Agency and Allied Institutions,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_119,Minister of Technology,minister,Sri Lanka Computer Emergency Readiness Team,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_120,Minister of Technology,minister,Sri Lanka Telecom and its Subsidiaries and Allied Institutions,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_121,Minister of Technology,minister,Industrial Technology Institute,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_122,Minister of Technology,minister,Sri Lanka Standards Institute,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_123,"Minister of Women, Child Affairs and Social Empowerment",minister,National Committee on Women,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_124,"Minister of Women, Child Affairs and Social Empowerment",minister,Sri Lanka Women’s Bureau,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_125,"Minister of Women, Child Affairs and Social Empowerment",minister,Department of Probation and Childcare Services,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_126,"Minister of Women, Child Affairs and Social Empowerment",minister,National Child Protection Authority,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_127,"Minister of Women, Child Affairs and Social Empowerment",minister,National Secretariat for Early Childhood Development,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_128,"Minister of Women, Child Affairs and Social Empowerment",minister,Department of Samurdhi Development,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_129,"Minister of Women, Child Affairs and Social Empowerment",minister,Saubhagya Development Bureau,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_130,"Minister of Women, Child Affairs and Social Empowerment",minister,National Institute of Social Development,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_131,"Minister of Women, Child Affairs and Social Empowerment",minister,Rural Development Training and Research Institute,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_132,"Minister of Women, Child Affairs and Social Empowerment",minister,Social Security Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_133,"Minister of Women, Child Affairs and Social Empowerment",minister,National Council for Persons with Disabilities,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_134,"Minister of Women, Child Affairs and Social Empowerment",minister,National Secretariat for Persons with Disabilities,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_135,"Minister of Women, Child Affairs and Social Empowerment",minister,Department of Social Services,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_136,"Minister of Women, Child Affairs and Social Empowerment",minister,National Council for Elders and National Secretariat for Elders,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_137,"Minister of Women, Child Affairs and Social Empowerment",minister,Kidney Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_138,"Minister of Ports, Shipping and Aviation",minister,Department of Pensions,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_139,"Minister of Ports, Shipping and Aviation",minister,Sri Lanka Institute of Development Administration,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_140,"Minister of Ports, Shipping and Aviation",minister,Distance Learning Centre Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_141,"Minister of Ports, Shipping and Aviation",minister,Department of Official Languages,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_142,"Minister of Ports, Shipping and Aviation",minister,Official Languages Commission,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_143,"Minister of Ports, Shipping and Aviation",minister,National Human Resources Development Council of Sri Lanka,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_144,"Minister of Ports, Shipping and Aviation",minister,National Institute of Language Education and Training,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_145,"Minister of Ports, Shipping and Aviation",minister,Public Service Pensioners’ Trust Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_146,"Minister of Ports, Shipping and Aviation",minister,Local Government Service Pension Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_147,"Minister of Ports, Shipping and Aviation",minister,Local Government Widows’ and Orphans’ Pension Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_148,"Minister of Ports, Shipping and Aviation",minister,Local Government Widowers’ and Orphans’ Pension Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_149,"Minister of Ports, Shipping and Aviation",minister,All District Secretariats and Divisional Secretariats,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_150,"Minister of Ports, Shipping and Aviation",minister,Department of Registrar General,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_151,"Minister of Ports, Shipping and Aviation",minister,Sri Lanka Institute of Local Government,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_152,"Minister of Ports, Shipping and Aviation",minister,Local Loans and Development Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_153,Minister of Investment Promotion,minister,Department of Immigration and Emigration,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_154,Minister of Investment Promotion,minister,Colombo Lotus Tower Management Company (Pvt.) Limited,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_155,Minister of Investment Promotion,minister,Techno Park Development Company (Pvt.) Limited,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_156,Minister of Investment Promotion,minister,Information Technology Parks,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_157,"Minister of Public Administration, Home Affairs, Provincial Councils and Local Government",minister,Department of Pensions,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_158,"Minister of Public Administration, Home Affairs, Provincial Councils and Local Government",minister,Sri Lanka Institute of Development Administration,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_159,"Minister of Public Administration, Home Affairs, Provincial Councils and Local Government",minister,Distance Learning Centre Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_160,"Minister of Public Administration, Home Affairs, Provincial Councils and Local Government",minister,Department of Official Languages,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_161,"Minister of Public Administration, Home Affairs, Provincial Councils and Local Government",minister,Official Languages Commission,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_162,"Minister of Public Administration, Home Affairs, Provincial Councils and Local Government",minister,National Human Resources Development Council of Sri Lanka,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_163,"Minister of Public Administration, Home Affairs, Provincial Councils and Local Government",minister,National Institute of Language Education and Training,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_164,"Minister of Public Administration, Home Affairs, Provincial Councils and Local Government",minister,Public Service Pensioners’ Trust Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_165,"Minister of Public Administration, Home Affairs, Provincial Councils and Local Government",minister,Local Government Service Pension Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_166,"Minister of Public Administration, Home Affairs, Provincial Councils and Local Government",minister,Local Government Widows’ and Orphans’ Pension Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_167,"Minister of Public Administration, Home Affairs, Provincial Councils and Local Government",minister,Local Government Widowers’ and Orphans’ Pension Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_168,"Minister of Public Administration, Home Affairs, Provincial Councils and Local Government",minister,All District Secretariats and Divisional Secretariats,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_169,"Minister of Public Administration, Home Affairs, Provincial Councils and Local Government",minister,Department of Registrar General,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_170,"Minister of Public Administration, Home Affairs, Provincial Councils and Local Government",minister,Sri Lanka Institute of Local Government,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_171,"Minister of Public Administration, Home Affairs, Provincial Councils and Local Government",minister,Local Loans and Development Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_172,Minister of Fisheries,minister,Department of Fisheries and Aquatic Resources,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_173,Minister of Fisheries,minister,National Aquatic Resources Research and Development Agency,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_174,Minister of Fisheries,minister,North Sea Ltd,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_175,Minister of Fisheries,minister,National Aquaculture Development Authority,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_176,Minister of Fisheries,minister,Ceylon Fisheries Corporation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_177,Minister of Fisheries,minister,Ceylon Fishery Harbours Corporation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_178,Minister of Fisheries,minister,Cey-Nor Foundation Ltd,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_179,Minister of Education,minister,Department of Examinations,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_180,Minister of Education,minister,Department of Educational Publications,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_181,Minister of Education,minister,National Library and Documentation Services Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_182,Minister of Education,minister,National Colleges of Education,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_183,Minister of Education,minister,Teachers’ College,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_184,Minister of Education,minister,UNESCO National Commission of Sri Lanka,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_185,Minister of Education,minister,Sri Lanka Publication Development Bureau,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_186,Minister of Education,minister,State Printing Corporation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_187,Minister of Education,minister,Directorates of Education,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_188,Minister of Education,minister,National Education Commission,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_189,Minister of Education,minister,National Institute of Education,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_190,Minister of Education,minister,Piriven Education Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_191,Minister of Education,minister,National Institute of Business Management and affiliated institutions,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_192,Minister of Education,minister,University of Vocational Technology,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_193,Minister of Education,minister,National Institute of Fisheries and Nautical Engineering (Ocean University),department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_194,Minister of Education,minister,Vocational Training Authority of Sri Lanka,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_195,Minister of Education,minister,National Apprenticeship and Industrial Training Authority,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_196,Minister of Education,minister,Ceylon German Technical Training Institute,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_197,Minister of Education,minister,Department of Technical Education and Training,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_198,Minister of Education,minister,National Institute of Fundamental Studies,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_199,Minister of Education,minister,Sri Lanka Inventors’ Commission,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_200,Minister of Education,minister,National Engineering Research And Development Centre,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_201,Minister of Education,minister,National Research Council,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_202,Minister of Education,minister,Tertiary and Vocational Education Commission,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_203,Minister of Education,minister,National Science Foundation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_204,Minister of Education,minister,Planetarium of Sri Lanka,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_205,Minister of Education,minister,Arthur C. Clarke Institute for Modern Technologies,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_206,Minister of Education,minister,National Innovation Agency,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_207,Minister of Education,minister,Skills Development Fund Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_208,Minister of Education,minister,Sri Lanka Inventors Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_209,Minister of Education,minister,National Science and Technology Commission,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_210,Minister of Education,minister,Sri Lanka Institute of Nanotechnology (Pvt.) Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_211,Minister of Education,minister,Sri Lanka Institute of Biotechnology (Pvt.) Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_212,Minister of Education,minister,Vidatha Centres,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_213,Minister of Education,minister,University Grants Commission,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_214,Minister of Education,minister,"All State Universities, Postgraduate Institutions and other Institutions under the purview of University Grants Commission",department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_215,Minister of Education,minister,Buddhasravaka Bhikku University,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_216,Minister of Education,minister,Buddhist and Pali University of Sri Lanka,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_217,Minister of Education,minister,Sri Lanka Institute of Advanced Technological Education,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_218,Minister of Transport and Highways,minister,Road Development Authority and its subsidiaries and affiliates,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_219,Minister of Transport and Highways,minister,Sahasya Investment Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_220,Minister of Transport and Highways,minister,Maga Neguma,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_221,Minister of Transport and Highways,minister,State Development and Construction Corporation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_222,Minister of Transport and Highways,minister,National Transport Commission,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_223,Minister of Transport and Highways,minister,National Council for Road Safety,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_224,Minister of Transport and Highways,minister,Department of Sri Lanka Railways,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_225,Minister of Transport and Highways,minister,Lakdiva Engineering Ltd,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_226,Minister of Transport and Highways,minister,Sri Lanka Transport Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_227,Minister of Transport and Highways,minister,National Transport Medical Institute,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_228,Minister of Transport and Highways,minister,Department of Motor Traffic,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_229,Minister of Mass Media,minister,Right to Information Commission,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_230,Minister of Mass Media,minister,Department of Government Printing,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_231,Minister of Mass Media,minister,Department of Government Information,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_232,Minister of Mass Media,minister,Sri Lanka Press Council,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_233,Minister of Mass Media,minister,Sri Lanka Broadcasting Corporation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_234,Minister of Mass Media,minister,Independent Television Network,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_235,Minister of Mass Media,minister,Sri Lanka Rupavahini Corporation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_236,Minister of Mass Media,minister,Associated Newspapers of Ceylon Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_237,Minister of Mass Media,minister,Lanka Puwath Ltd,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_238,Minister of Mass Media,minister,Selacine Rupavahini Institute,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_239,Minister of Mass Media,minister,Sri Lanka Foundation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_240,Minister of Mass Media,minister,Postal Department,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_241,Minister of Mass Media,minister,Sri Lanka Institute of Printing,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_242,Minister of Mass Media,minister,Public Performance Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_243,Minister of Mass Media,minister,National Film Corporation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_244,Minister of Health,minister,National Health Council,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_245,Minister of Health,minister,Medical Research Institute,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_246,Minister of Health,minister,National Institute of Health Sciences,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_247,Minister of Health,minister,Sri Lanka Medical Council,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_248,Minister of Health,minister,Sri Lanka Medical College Council,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_249,Minister of Health,minister,Private Health Services Regulatory Council,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_250,Minister of Health,minister,Department of Health Services,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_251,Minister of Health,minister,"All National, Teaching and Specific Government Hospitals",department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_252,Minister of Health,minister,School of Medical Laboratory Technology,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_253,Minister of Health,minister,"National Institute of Nephrology, Dialysis and Transplantation",department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_254,Minister of Health,minister,Sri Lanka Thriposha Co. Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_255,Minister of Health,minister,Sri Jayewardenepura General Hospital,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_256,Minister of Health,minister,Vijaya Kumaratunga Memorial Hospital,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_257,Minister of Health,minister,Ashraff Memorial Hospital,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_258,Minister of Health,minister,National Authority on Tobacco and Alcohol,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_259,Minister of Health,minister,1990 Suwaseriya Foundation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_260,Minister of Health,minister,National Health Development Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_261,Minister of Health,minister,State Pharmaceutical Corporation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_262,Minister of Health,minister,State Pharmaceutical Manufacturing Corporation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_263,Minister of Health,minister,National Medicines Regulatory Authority,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_264,Minister of Health,minister,Department of Ayurveda,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_265,Minister of Health,minister,Sri Lanka Ayurvedic Drugs Corporation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_266,Minister of Health,minister,Ayurvedic Medical Council,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_267,Minister of Health,minister,Ayurvedic College and Hospital Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_268,Minister of Health,minister,Ayurveda Teaching and Research Hospitals,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_269,Minister of Health,minister,"Homeopathy Hospital, Welisara",department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_270,Minister of Health,minister,Homeopathy Medical Council,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_271,Minister of Water Supply,minister,National Water Supply and Drainage Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_272,Minister of Water Supply,minister,Water Resources Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_273,Minister of Water Supply,minister,Department of National Community Water Supply,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_274,Minister of Agriculture,minister,Department of Agriculture,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_275,Minister of Agriculture,minister,Department of Agrarian Development,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_276,Minister of Agriculture,minister,Agriculture and Agrarian Insurance Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_277,Minister of Agriculture,minister,Paddy Marketing Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_278,Minister of Agriculture,minister,Hector Kobbekaduwa Agrarian Research and Training Institute,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_279,Minister of Agriculture,minister,Sri Lanka Council for Agricultural Research Policy,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_280,Minister of Agriculture,minister,National Agricultural Diversification and Settlement Authority,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_281,Minister of Agriculture,minister,Lanka Posphate Limited,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_282,Minister of Agriculture,minister,National Fertilizer Secretariat,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_283,Minister of Agriculture,minister,Ceylon Fertilizer Company Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_284,Minister of Agriculture,minister,Colombo Commercial Fertilizer Company,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_285,Minister of Agriculture,minister,National Hunger Eradication Campaign Board of Sri Lanka (National Food Promotion Board),department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_286,Minister of Agriculture,minister,Institute of Post-Harvest Technology,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_287,Minister of Agriculture,minister,Department of Animal Production and Health,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_288,Minister of Agriculture,minister,National Livestock Development Board and affiliated companies,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_289,Minister of Agriculture,minister,Milco (Pvt.) Ltd,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_290,Minister of Agriculture,minister,Mahaweli Livestock Enterprise Limited,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_291,Minister of Wildlife and Forest Resources Conservation,minister,Department of Forest Conservation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_292,Minister of Wildlife and Forest Resources Conservation,minister,Department of Wildlife Conservation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_293,Minister of Wildlife and Forest Resources Conservation,minister,Department of National Zoological Gardens,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_294,Minister of Wildlife and Forest Resources Conservation,minister,State Timber Corporation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_295,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Attorney General’s Department,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_296,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Legal Draftsman’s Department,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_297,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Department of Debt Conciliation Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_298,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Department of Government Analyst,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_299,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Office of the Registrar of the Supreme Court,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_300,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Law Commission of Sri Lanka,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_301,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Superior Courts Complex Board of Management,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_302,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Legal Aid Commission of Sri Lanka,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_303,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Mediation Boards Commission,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_304,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Council of Legal Education,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_305,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Commercial Mediation Centre of Sri Lanka,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_306,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Sri Lanka International Arbitration Centre (Guarantee) Ltd,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_307,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Office for National Unity and Reconciliation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_308,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Office of Missing Persons,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_309,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Office for Reparations,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_310,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,National Authority for the Protection of Victims of Crime and Witnesses,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_311,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Department of Prisons,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_312,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Community Based Correction Department,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_313,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Training Schools for Youthful Offenders,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_314,"Minister of Justice, Prisons Affairs and Constitutional Reforms",minister,Rehabilitation Commissioner General’s Office,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_315,Minister of Tourism and Lands,minister,Sri Lanka Tourism Promotion Bureau,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_316,Minister of Tourism and Lands,minister,Sri Lanka Tourism Development Authority,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_317,Minister of Tourism and Lands,minister,Sri Lanka Institute of Tourism and Hotel Management,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_318,Minister of Tourism and Lands,minister,Sri Lanka Convention Bureau,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_319,Minister of Tourism and Lands,minister,Department of National Botanic Gardens,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_320,Minister of Tourism and Lands,minister,Department of Land Commissioner General,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_321,Minister of Tourism and Lands,minister,Department of Land Use Policy Planning,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_322,Minister of Tourism and Lands,minister,Department of Land Settlement,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_323,Minister of Tourism and Lands,minister,Land Reform Commission,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_324,Minister of Tourism and Lands,minister,Sri Lanka Survey Department,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_325,Minister of Tourism and Lands,minister,Institute of Surveying and Mapping,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_326,Minister of Tourism and Lands,minister,Land Survey Council,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_327,Minister of Tourism and Lands,minister,Land Acquisition Board of Review,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_328,Minister of Plantation Industries,minister,National Institute of Plantation Management,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_329,Minister of Plantation Industries,minister,Sri Lanka Tea Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_330,Minister of Plantation Industries,minister,Tea Small Holdings Development Authority,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_331,Minister of Plantation Industries,minister,Tea Research Institute,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_332,Minister of Plantation Industries,minister,Tea and Rubber Estates (Control and Fragmentation) Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_333,Minister of Plantation Industries,minister,Janatha Estate Development Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_334,Minister of Plantation Industries,minister,Kalubovitiyana Tea Factory Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_335,Minister of Plantation Industries,minister,Sri Lanka State Plantation Corporation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_336,Minister of Plantation Industries,minister,Elkaduwa Plantation Company Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_337,Minister of Plantation Industries,minister,Department of Rubber Development,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_338,Minister of Plantation Industries,minister,Rubber Research Institute,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_339,Minister of Plantation Industries,minister,Sri Lanka Rubber Manufacturing and Export Corporation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_340,Minister of Plantation Industries,minister,Tea Shakthi Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_341,Minister of Plantation Industries,minister,Thurusaviya Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_342,Minister of Plantation Industries,minister,Department of Export Agriculture,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_343,Minister of Plantation Industries,minister,Sri Lanka Cashew Corporation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_344,Minister of Plantation Industries,minister,Hingurana Sugar Industry Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_345,Minister of Plantation Industries,minister,Ceylon Sugar (Pvt.) Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_346,Minister of Plantation Industries,minister,Kantale Sugar Company Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_347,Minister of Plantation Industries,minister,Sugar Cane Research Institute,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_348,Minister of Plantation Industries,minister,Galoya Plantation (Pvt.) Company,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_349,Minister of Plantation Industries,minister,Spices and Allied Products Marketing Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_350,Minister of Plantation Industries,minister,Kurunegala Plantation Company Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_351,Minister of Plantation Industries,minister,Chilaw Plantation Company Ltd,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_352,Minister of Plantation Industries,minister,Coconut Cultivation Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_353,Minister of Plantation Industries,minister,Coconut Development Authority,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_354,Minister of Plantation Industries,minister,Coconut Research Institute,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_355,Minister of Plantation Industries,minister,Palmyrah Development Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_356,Minister of Plantation Industries,minister,Kithul Development Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_357,Minister of Plantation Industries,minister,Kapruka Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_358,Minister of Industries,minister,Ceylon Industrial Development Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_359,Minister of Industries,minister,Lanka Leyland Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_360,Minister of Industries,minister,Lanka Ashok Leyland Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_361,Minister of Industries,minister,National Paper Corporation Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_362,Minister of Industries,minister,Kahagolla Engineering Services Company Ltd. (KESCO),department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_363,Minister of Industries,minister,National Salt Limited,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_364,Minister of Industries,minister,Centre of Excellence for Robotic Applications,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_365,Minister of Industries,minister,Lanka Cement Ltd,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_366,Minister of Industries,minister,Sri Lanka Cement Corporation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_367,Minister of Industries,minister,Paranthan Chemicals Ltd,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_368,Minister of Industries,minister,Kahatagaha Graphite Lanka Ltd,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_369,Minister of Industries,minister,Ceylon Ceramics Corporation (Brick and Tiles Division),department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_370,Minister of Industries,minister,BCC (Pvt) Limited,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_371,Minister of Industries,minister,National Enterprise Development Authority,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_372,Minister of Industries,minister,Lanka Mineral Sands Company,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_373,Minister of Industries,minister,SME Venture Capital Company,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_374,Minister of Industries,minister,SME Authority,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_375,Minister of Industries,minister,Timber-related Design Centre,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_376,Minister of Industries,minister,National Crafts Council,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_377,Minister of Industries,minister,Department of Textile Industries,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_378,Minister of Industries,minister,Sri Lanka Institute of Textile and Apparels,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_379,Minister of Industries,minister,Lanka Textile Mills Emporium Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_380,Minister of Industries,minister,Lanka Salusala Ltd,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_381,Minister of Industries,minister,Sri Lanka Handicraft Board (Laksala),department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_382,Minister of Industries,minister,National Design Centre,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_383,Minister of Industries,minister,National Gem and Jewellery Authority,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_384,Minister of Industries,minister,Gem and Jewellery Research and Training Institute,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_385,Minister of Urban Development and Housing,minister,Urban Development Authority,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_386,Minister of Urban Development and Housing,minister,Urban Settlement Development Authority,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_387,Minister of Urban Development and Housing,minister,Selendiva Investments Limited,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_388,Minister of Urban Development and Housing,minister,Hotel Developers (Lanka) PLC (PQ 143),department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_389,Minister of Urban Development and Housing,minister,National Physical Planning Department,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_390,Minister of Urban Development and Housing,minister,Condominium Management Authority (Common Amenities Board),department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_391,Minister of Urban Development and Housing,minister,Sri Lanka Land Development Corporation and its subsidiaries and related institutions,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_392,Minister of Urban Development and Housing,minister,National Housing Development Authority,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_393,Minister of Urban Development and Housing,minister,Building Material Corporation Limited,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_394,Minister of Urban Development and Housing,minister,Department of Buildings,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_395,Minister of Urban Development and Housing,minister,Department of Government Factories,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_396,Minister of Urban Development and Housing,minister,Construction Industry Development Authority,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_397,Minister of Urban Development and Housing,minister,State Engineering Corporation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_398,Minister of Urban Development and Housing,minister,National Equipment and Machinery Organization,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_399,Minister of Urban Development and Housing,minister,Ocean View Development (Pvt) Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_400,Minister of Urban Development and Housing,minister,Marine Environment Protection Authority,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_401,Minister of Urban Development and Housing,minister,Department of Coast Conservation and Coastal Resource Management,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_402,Minister of Urban Development and Housing,minister,New Villages Development Authority for Plantation Region,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_403,Minister of Urban Development and Housing,minister,Plantation Human Development Trust,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_404,Minister of Urban Development and Housing,minister,Saumyamoorthi Thondaman Memorial Foundation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_405,Minister of Urban Development and Housing,minister,Estate Sector Self-Employment Revolving Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_406,Minister of Foreign Affairs,minister,Diplomatic Missions in abroad,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_407,Minister of Foreign Affairs,minister,National Oceanic Affairs Committee Secretariat,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_408,Minister of Foreign Affairs,minister,Lakshman Kadirgamar Institute for International Relations and Strategic Studies,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_409,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,Department of Buddhist Affairs,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_410,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,Department of Hindu Religious and Cultural Affairs,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_411,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,Department of Christian Religious Affairs,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_412,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,Department of Muslim Religious and Cultural Affairs,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_413,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,Department of National Museums,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_414,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,Department of National Archives,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_415,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,S W R D Bandaranaike National Memorial Foundation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_416,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,J.R. Jayewardene Centre,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_417,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,Department of Public Trustee,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_418,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,Central Cultural Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_419,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,Buddha Sasana Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_420,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,Buddhist Renaissance Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_421,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,Department of Cultural Affairs,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_422,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,Department of Archaeology,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_423,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,Tower Hall Theatre Foundation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_424,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,National Arts Council,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_425,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,Gramodaya Folk Arts Centre,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_426,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,Galle Heritage Foundation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_427,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,Mahinda Rajapaksa National Tele Cinema Park,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_428,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,National Performing Arts Theatre (Nelum Pokuna),department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_429,"Minister of Buddhasasana, Religious and Cultural Affairs",minister,“Ape Gama”,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_430,Minister of Power and Energy,minister,Ceylon Electricity Board and its subsidiary Companies,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_431,Minister of Power and Energy,minister,Ceylon Electricity Company,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_432,Minister of Power and Energy,minister,Lanka Coal Company (Pvt) Ltd,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_433,Minister of Power and Energy,minister,LTL Holdings (Pvt.) Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_434,Minister of Power and Energy,minister,Ceylon Petroleum Corporation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_435,Minister of Power and Energy,minister,Ceylon Petroleum Storage Terminal Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_436,Minister of Power and Energy,minister,Petroleum Development Authority of Sri Lanka,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_437,Minister of Power and Energy,minister,Polipto Lanka (Pvt) Ltd,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_438,Minister of Power and Energy,minister,Sri Lanka Sustainable Energy Authority,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_439,Minister of Power and Energy,minister,Sri Lanka Atomic Energy Board,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_440,Minister of Power and Energy,minister,Sri Lanka Atomic Energy Regulatory Council,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_441,Minister of Environment,minister,Central Environmental Authority,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_442,Minister of Environment,minister,Geological Survey and Mines Bureau,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_443,Minister of Environment,minister,GSMB Technical Services (Pvt) Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_444,Minister of Environment,minister,Sri Lanka Climate Fund (Pvt) Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_445,Minister of Sports and Youth Affairs,minister,Department of Sports Development,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_446,Minister of Sports and Youth Affairs,minister,National Sports Council,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_447,Minister of Sports and Youth Affairs,minister,National Institute of Sports Science,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_448,Minister of Sports and Youth Affairs,minister,Sugathadasa National Sports Complex Authority,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_449,Minister of Sports and Youth Affairs,minister,Institute of Sports Medicine,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_450,Minister of Sports and Youth Affairs,minister,Sri Lanka Anti-doping Agency,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_451,Minister of Sports and Youth Affairs,minister,National Youth Services Council,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_452,Minister of Sports and Youth Affairs,minister,National Youth Corps,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_453,Minister of Sports and Youth Affairs,minister,National Youths Services Cooperative Society Limited,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_454,Minister of Sports and Youth Affairs,minister,National Centre for Leadership Development,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_455,Minister of Irrigation,minister,Department of Irrigation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_456,Minister of Irrigation,minister,"Major irrigation development projects including Uma Oya, Moragahakanda, Kalu Ganga, Gin Ganga, Nilwala, Malwathu Oya",department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_457,Minister of Irrigation,minister,Central Engineering Consultancy Bureau and its subsidiaries and affiliated companies,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_458,Minister of Irrigation,minister,Sri Lanka Mahaweli Authority,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_459,Minister of Irrigation,minister,Engineering Council of Sri Lanka,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_460,Minister of Labour and Foreign Employment,minister,Department of Labour,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_461,Minister of Labour and Foreign Employment,minister,National Institute of Labour Studies,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_462,Minister of Labour and Foreign Employment,minister,National Institute for Occupational Safety and Health,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_463,Minister of Labour and Foreign Employment,minister,Office of the Commissioner of Workmen’s Compensation,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_464,Minister of Labour and Foreign Employment,minister,National Productivity Secretariat,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_465,Minister of Labour and Foreign Employment,minister,Shrama Vasana Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_466,Minister of Labour and Foreign Employment,minister,Department of Manpower and Employment,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_467,Minister of Labour and Foreign Employment,minister,Sri Lanka Foreign Employment Bureau,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_468,Minister of Labour and Foreign Employment,minister,Foreign Employment Agency of Sri Lanka (Pvt.) Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_469,Minister of Public Security,minister,Sri Lanka Police,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_470,Minister of Public Security,minister,National Police Academy,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_471,Minister of Public Security,minister,Secretariat for Non-Governmental Organizations,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_472,"Minister of Trade, Commerce and Food Security",minister,Department of Commerce,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_473,"Minister of Trade, Commerce and Food Security",minister,Lanka Sathosa Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_474,"Minister of Trade, Commerce and Food Security",minister,Lanka General Trading Company Ltd.,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_475,"Minister of Trade, Commerce and Food Security",minister,Cooperative Wholesale Establishment,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_476,"Minister of Trade, Commerce and Food Security",minister,Mahapola Trust Fund,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_477,"Minister of Trade, Commerce and Food Security",minister,Regional Economic Centres,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_478,"Minister of Trade, Commerce and Food Security",minister,Sri Lanka Accreditation Board for Conformity Assessment,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_479,"Minister of Trade, Commerce and Food Security",minister,"Department of Measurement Units, Standards and Services",department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_480,"Minister of Trade, Commerce and Food Security",minister,National Intellectual Property Office of Sri Lanka,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_481,"Minister of Trade, Commerce and Food Security",minister,Consumer Affairs Authority,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_482,"Minister of Trade, Commerce and Food Security",minister,Department of Cooperative Development (Registrar of Cooperative Societies),department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_483,"Minister of Trade, Commerce and Food Security",minister,Cooperative Employees Commission,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_484,"Minister of Trade, Commerce and Food Security",minister,National Institute of Cooperative Development,department,AS_DEPARTMENT,2022-07-22
+2289-43_tr_485,"Minister of Trade, Commerce and Food Security",minister,Food Commissioner’s Department,department,AS_DEPARTMENT,2022-07-22
