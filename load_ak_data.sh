@@ -45,3 +45,7 @@
 
 ./orgchart -data "$(pwd)/data/orgchart/Anura Kumara Dissanayake/2025-10-18/" -type organisation
 
+# AKD's latest data in 2026
+./orgchart -data "$(pwd)/data/people/Anura Kumara Dissanayake/2026-04-21/" -type person
+
+
