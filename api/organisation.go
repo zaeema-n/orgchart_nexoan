@@ -64,8 +64,8 @@ func (c *Client) AddOrgEntity(transaction map[string]interface{}, entityCounters
 		// 	return 0, fmt.Errorf("minister '%s' already exists under president '%s'", child, parent)
 		// }
 
-		// Get the president entity
-		presidentEntity, err := c.GetPresidentByGovernment(parent)
+		// Get the president entity active at transaction date.
+		presidentEntity, err := c.GetPresidentByGovernment(parent, dateISO)
 		if err != nil {
 			return 0, fmt.Errorf("failed to get parent president entity: %w", err)
 		}
@@ -196,6 +196,12 @@ func (c *Client) AddOrgEntity(transaction map[string]interface{}, entityCounters
 		return 0, fmt.Errorf("failed to update parent entity: %w", err)
 	}
 
+	if isMinisterType(childType) {
+		if err := c.ensureMinisterOrgStructure(createdChild.ID, dateISO, ""); err != nil {
+			return 0, fmt.Errorf("failed to ensure minister org structure: %w", err)
+		}
+	}
+
 	return entityCounter, nil
 }
 
@@ -222,7 +228,7 @@ func (c *Client) TerminateOrgEntity(transaction map[string]interface{}) error {
 	// Handle parent entity retrieval
 	if parentType == "president" {
 		// Parent is a president - use the helper function
-		presidentEntity, err := c.GetPresidentByGovernment(parent)
+		presidentEntity, err := c.GetPresidentByGovernment(parent, dateISO)
 		if err != nil {
 			return fmt.Errorf("failed to get parent president entity: %w", err)
 		}
@@ -414,44 +420,28 @@ func (c *Client) TerminateOrgEntity(transaction map[string]interface{}) error {
 		return fmt.Errorf("failed to terminate relationship: %w", err)
 	}
 
-	// If we're terminating a minister, also terminate any active people assigned to it
+	// If we're terminating a minister, also terminate all active role assignments
+	// under the minister and secretary org-structure nodes.
 	if isMinisterType(childType) {
-		// Get all active people relationships from the minister
-		ministerPeopleRelations, err := c.GetRelatedEntities(childID, &models.Relationship{
-			Name: "AS_APPOINTED",
-		})
+		ministerNodeID, err := roleNodeID(childID, "minister")
 		if err != nil {
-			return fmt.Errorf("failed to get minister's people relationships: %w", err)
+			return fmt.Errorf("failed to resolve minister org-structure role node id: %w", err)
+		}
+		secretaryNodeID, err := roleNodeID(childID, "secretary")
+		if err != nil {
+			return fmt.Errorf("failed to resolve secretary org-structure role node id: %w", err)
 		}
 
-		// Find active people relationships (EndTime == "")
-		var activePeopleRelations []models.Relationship
-		for _, rel := range ministerPeopleRelations {
-			if rel.EndTime == "" {
-				activePeopleRelations = append(activePeopleRelations, rel)
-			}
+		if err := c.terminateIncomingASRoles(ministerNodeID, dateISO); err != nil {
+			return fmt.Errorf("failed to terminate role assignments on minister node: %w", err)
 		}
-
-		// Terminate each active person relationship
-		for _, rel := range activePeopleRelations {
-			terminatePersonRel := &models.Entity{
-				ID: childID,
-				Relationships: []models.RelationshipEntry{
-					{
-						Key: rel.ID,
-						Value: models.Relationship{
-							EndTime: dateISO,
-							ID:      rel.ID,
-						},
-					},
-				},
-			}
-
-			_, err = c.UpdateEntity(childID, terminatePersonRel)
-			if err != nil {
-				return fmt.Errorf("failed to terminate person relationship: %w", err)
-			}
+		if err := c.terminateIncomingASRoles(secretaryNodeID, dateISO); err != nil {
+			return fmt.Errorf("failed to terminate role assignments on secretary node: %w", err)
 		}
+	}
+	// Ministers, government, and any future root using {id}_org: no-op if no AS_ORGANISATION exists.
+	if err := c.terminateOrganisationStructureRelationship(childID, dateISO); err != nil {
+		return fmt.Errorf("failed to terminate AS_ORGANISATION: %w", err)
 	}
 
 	return nil

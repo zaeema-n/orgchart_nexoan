@@ -1,27 +1,27 @@
-transaction_id,parent,parent_type,child,child_type,rel_type,date
-2276-64-2_tr_03,State Minister of Plantation,stateMinister,Arundika Fernando,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_06,State Minister of Foreign Affairs,stateMinister,Tharaka Balasuriya,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_08,State Minister of Water Supply,stateMinister,Sanath Nishantha,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_09,State Minister of Mahaweli,stateMinister,Siripala Gamlath,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_10,State Minister of Promoting the Production of Organic fertilizer and Advanced Technology Agriculture,stateMinister,Shantha Bandara,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_11,State Minister of Irrigation,stateMinister,Anuradha Jayaratne,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_12,State Minister of Youth and Sports,stateMinister,Sathasivam Viyalendiran,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_13,State Minister of Indigenous Medicine,stateMinister,Arachchilage Sisira Jayakody,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_15,State Minister of Tourism,stateMinister,Denagama Vitharanage Chanaka Dinushan,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_16,State Minister of Fisheries,stateMinister,Denagama Vitharanage Chanaka Dinushan,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_17,State Minister of Livestock,stateMinister,D.B. Herath,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_18,State Minister of Education,stateMinister,Wijayapala Sri Narayana Wasala Bandaranayake Mohottalalage Seetha Kumari Arambepola,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_19,State Minister of Education Reforms,stateMinister,Wijayapala Sri Narayana Wasala Bandaranayake Mohottalalage Seetha Kumari Arambepola,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_20,State Minister of Rural Economic Crop Cultivation and Promotion,stateMinister,Khadar Khadar Masthan,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_21,State Minister of Trade,stateMinister,Ashoka Priyantha,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_23,State Minister of Cultural & Performing Arts,stateMinister,Geetha Samanmalee Kumarasingha,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_24,State Minister of Rural Roads and Development,stateMinister,Sivanesathurai Chandrakanthan,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_25,State Minister of Textile Industry & Local Apparel Products Promotion,stateMinister,Saiful Muthunabeen Mohamed Muszhaaroff,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_27,State Minister of Development of Minor Export Crops Plantation,stateMinister,Athukoralage Pelawatthe Kapila Nuwan Athukorala,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_28,State Minister of Health,stateMinister,Gayashan Nawananda,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_29,State Minister of Higher Education,stateMinister,Surendra Ragawan,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_30,State Minister of Transport,stateMinister,Dayana Gamage,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_05,State Minister of Urban Development,stateMinister,Lohan Ratwatte,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_04,State Minister of Highways,stateMinister,Vijitha Berugoda,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_07,State Minister of Housing,stateMinister,Indika Anuruddha,citizen,AS_APPOINTED,2022-04-22
-2276-64-2_tr_14,State Minister of Industries,stateMinister,Prasanna Ranaweera Bulathwalage,citizen,AS_APPOINTED,2022-04-22
+transaction_id,parent,parent_type,child,child_type,role,date
+2276-64-2_tr_03,State Minister of Plantation,stateMinister,Arundika Fernando,citizen,minister,2022-04-22
+2276-64-2_tr_06,State Minister of Foreign Affairs,stateMinister,Tharaka Balasuriya,citizen,minister,2022-04-22
+2276-64-2_tr_08,State Minister of Water Supply,stateMinister,Sanath Nishantha,citizen,minister,2022-04-22
+2276-64-2_tr_09,State Minister of Mahaweli,stateMinister,Siripala Gamlath,citizen,minister,2022-04-22
+2276-64-2_tr_10,State Minister of Promoting the Production of Organic fertilizer and Advanced Technology Agriculture,stateMinister,Shantha Bandara,citizen,minister,2022-04-22
+2276-64-2_tr_11,State Minister of Irrigation,stateMinister,Anuradha Jayaratne,citizen,minister,2022-04-22
+2276-64-2_tr_12,State Minister of Youth and Sports,stateMinister,Sathasivam Viyalendiran,citizen,minister,2022-04-22
+2276-64-2_tr_13,State Minister of Indigenous Medicine,stateMinister,Arachchilage Sisira Jayakody,citizen,minister,2022-04-22
+2276-64-2_tr_15,State Minister of Tourism,stateMinister,Denagama Vitharanage Chanaka Dinushan,citizen,minister,2022-04-22
+2276-64-2_tr_16,State Minister of Fisheries,stateMinister,Denagama Vitharanage Chanaka Dinushan,citizen,minister,2022-04-22
+2276-64-2_tr_17,State Minister of Livestock,stateMinister,D.B. Herath,citizen,minister,2022-04-22
+2276-64-2_tr_18,State Minister of Education,stateMinister,Wijayapala Sri Narayana Wasala Bandaranayake Mohottalalage Seetha Kumari Arambepola,citizen,minister,2022-04-22
+2276-64-2_tr_19,State Minister of Education Reforms,stateMinister,Wijayapala Sri Narayana Wasala Bandaranayake Mohottalalage Seetha Kumari Arambepola,citizen,minister,2022-04-22
+2276-64-2_tr_20,State Minister of Rural Economic Crop Cultivation and Promotion,stateMinister,Khadar Khadar Masthan,citizen,minister,2022-04-22
+2276-64-2_tr_23,State Minister of Cultural & Performing Arts,stateMinister,Geetha Samanmalee Kumarasingha,citizen,minister,2022-04-22
+2276-64-2_tr_24,State Minister of Rural Roads and Development,stateMinister,Sivanesathurai Chandrakanthan,citizen,minister,2022-04-22
+2276-64-2_tr_25,State Minister of Textile Industry & Local Apparel Products Promotion,stateMinister,Saiful Muthunabeen Mohamed Muszhaaroff,citizen,minister,2022-04-22
+2276-64-2_tr_30,State Minister of Transport,stateMinister,Dayana Gamage,citizen,minister,2022-04-22
+2276-64-2_tr_05,State Minister of Urban Development,stateMinister,Lohan Ratwatte,citizen,minister,2022-04-22
+2276-64-2_tr_14,State Minister of Industries,stateMinister,Prasanna Ranaweera Bulathwalage,citizen,minister,2022-04-22
+2276-64-2_tr_21,State Minister of Trade,stateMinister,Ashoka Priyantha,citizen,minister,2022-04-22
+2276-64-2_tr_27,State Minister of Development of Minor Export Crops Plantation,stateMinister,Athukoralage Pelawatthe Kapila Nuwan Athukorala,citizen,minister,2022-04-22
+2276-64-2_tr_28,State Minister of Health,stateMinister,Gayashan Nawananda,citizen,minister,2022-04-22
+2276-64-2_tr_29,State Minister of Higher Education,stateMinister,Surendra Ragawan,citizen,minister,2022-04-22
+2276-64-2_tr_04,State Minister of Highways,stateMinister,Vijitha Berugoda,citizen,minister,2022-04-22
+2276-64-2_tr_07,State Minister of Housing,stateMinister,Indika Anuruddha,citizen,minister,2022-04-22

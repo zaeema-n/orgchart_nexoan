@@ -1,2 +1,2 @@
-transaction_id,old_parent,old_president_name,new_parent,new_president_name,child,type,date
-2355-08_tr_02,Minister of Health,Ranil Wickremesinghe,Minister of Environment,Ranil Wickremesinghe,Keheliya Rambukwella,citizen,2023-10-23
+transaction_id,old_parent,old_president_name,new_parent,new_president_name,child,type,date,role
+2355-08_tr_02,Minister of Health,Ranil Wickremesinghe,Minister of Environment,Ranil Wickremesinghe,Keheliya Rambukwella,citizen,2023-10-23,minister

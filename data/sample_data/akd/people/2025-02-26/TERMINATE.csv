@@ -1,2 +1,2 @@
-transaction_id,parent,parent_type,child,child_type,rel_type,date,president
-1132-00_tr_01,Minister of Health,minister,Sanjiva Weerawarana,citizen,AS_APPOINTED,2025-02-26,:AK
+transaction_id,parent,parent_type,child,child_type,role,date,president
+1132-00_tr_01,Minister of Health,minister,Sanjiva Weerawarana,citizen,minister,2025-02-26,:AK

@@ -34,10 +34,11 @@ func TestMain(m *testing.M) {
 	presidentTransaction := map[string]interface{}{
 		"parent":         "Government of Sri Lanka",
 		"child":          "Ranil Wickremesinghe",
-		"date":           "2019-12-01",
+		// Use an early baseline date so downstream fixture dates are chronologically valid.
+		"date":           "2018-01-01",
 		"parent_type":    "government",
 		"child_type":     "citizen",
-		"rel_type":       "AS_PRESIDENT",
+		"role":           "president",
 		"transaction_id": "2152-12_tr_01",
 	}
 	_, err = client.AddPersonEntity(presidentTransaction, entityCounters)
@@ -50,6 +51,47 @@ func TestMain(m *testing.M) {
 	// Run tests
 	code := m.Run()
 	os.Exit(code)
+}
+
+func assertMinisterOrgStructure(t *testing.T, ministerID string) {
+	t.Helper()
+
+	orgID := fmt.Sprintf("%s_org", ministerID)
+	ministerNodeID := fmt.Sprintf("%s_minister", ministerID)
+	secretaryNodeID := fmt.Sprintf("%s_secretary", ministerID)
+
+	asOrgRels, err := client.GetRelatedEntities(ministerID, &models.Relationship{
+		RelatedEntityID: orgID,
+		Name:            "AS_ORGANISATION",
+	})
+	assert.NoError(t, err)
+	assert.Len(t, asOrgRels, 1, "minister should have exactly one AS_ORGANISATION relationship to org node")
+
+	orgNodeResults, err := client.SearchEntities(&models.SearchCriteria{ID: orgID})
+	assert.NoError(t, err)
+	assert.Len(t, orgNodeResults, 1, "org node should exist")
+
+	ministerNodeResults, err := client.SearchEntities(&models.SearchCriteria{ID: ministerNodeID})
+	assert.NoError(t, err)
+	assert.Len(t, ministerNodeResults, 1, "minister org-structure node should exist")
+
+	secretaryNodeResults, err := client.SearchEntities(&models.SearchCriteria{ID: secretaryNodeID})
+	assert.NoError(t, err)
+	assert.Len(t, secretaryNodeResults, 1, "secretary org-structure node should exist")
+
+	ministerUnderOrgRels, err := client.GetRelatedEntities(ministerNodeID, &models.Relationship{
+		RelatedEntityID: orgID,
+		Name:            "IS_UNDER",
+	})
+	assert.NoError(t, err)
+	assert.Len(t, ministerUnderOrgRels, 1, "minister node should be IS_UNDER org node")
+
+	secretaryUnderMinisterRels, err := client.GetRelatedEntities(secretaryNodeID, &models.Relationship{
+		RelatedEntityID: ministerNodeID,
+		Name:            "IS_UNDER",
+	})
+	assert.NoError(t, err)
+	assert.Len(t, secretaryUnderMinisterRels, 1, "secretary node should be IS_UNDER minister node")
 }
 
 func TestCreateMinisters(t *testing.T) {
@@ -123,6 +165,7 @@ func TestCreateMinisters(t *testing.T) {
 		results = utils.FilterByExactName(results, tc.child)
 		assert.Len(t, results, 1)
 		assert.Equal(t, tc.child, results[0].Name)
+		assertMinisterOrgStructure(t, results[0].ID)
 
 		// Verify the relationship was created by checking parent's relationships
 		parentResults, err := client.SearchEntities(&models.SearchCriteria{
@@ -319,7 +362,7 @@ func TestTerminateMinister(t *testing.T) {
 	err := client.TerminateOrgEntity(transaction)
 	assert.NoError(t, err)
 
-	// Find the president to verify the relationship - presidents are citizens with AS_PRESIDENT relationship
+	// Find the president to verify the role assignment under government.
 	presResults, err := client.SearchEntities(&models.SearchCriteria{
 		Kind: &models.Kind{
 			Major: "Person",
@@ -330,8 +373,9 @@ func TestTerminateMinister(t *testing.T) {
 	assert.NoError(t, err)
 	presResults = utils.FilterByExactName(presResults, "Ranil Wickremesinghe")
 	assert.Len(t, presResults, 1)
+	presID := presResults[0].ID
 
-	// Get government node to check AS_PRESIDENT relationship
+	// Get government node to check AS_ROLE relationship to the president role node.
 	governmentResults, err := client.SearchEntities(&models.SearchCriteria{
 		Kind: &models.Kind{
 			Major: "Organisation",
@@ -340,17 +384,16 @@ func TestTerminateMinister(t *testing.T) {
 	})
 	assert.NoError(t, err)
 	assert.Len(t, governmentResults, 1)
+	presidentRoleNodeID := governmentResults[0].ID + "_president"
 
-	// Verify this citizen has AS_PRESIDENT relationship to government
-	presidentRelations, err := client.GetRelatedEntities(governmentResults[0].ID, &models.Relationship{
-		Name:            "AS_PRESIDENT",
-		RelatedEntityID: presResults[0].ID,
+	// Verify this citizen has AS_ROLE relationship to the government president role node.
+	presidentRelations, err := client.GetRelatedEntities(presID, &models.Relationship{
+		Name:            "AS_ROLE",
+		RelatedEntityID: presidentRoleNodeID,
 	})
 	assert.NoError(t, err)
-	assert.Len(t, presidentRelations, 1, "Should find AS_PRESIDENT relationship")
-	assert.Equal(t, "", presidentRelations[0].EndTime, "AS_PRESIDENT relationship should be active")
-
-	presID := presResults[0].ID
+	assert.Len(t, presidentRelations, 1, "Should find AS_ROLE relationship to the government president role node")
+	assert.Equal(t, "", presidentRelations[0].EndTime, "President AS_ROLE relationship should be active")
 
 	// Find the minister
 	ministerResults, err := client.SearchEntities(&models.SearchCriteria{
@@ -373,6 +416,15 @@ func TestTerminateMinister(t *testing.T) {
 	assert.NoError(t, err)
 	assert.Len(t, relations, 1, "Should find one relationship")
 	assert.Equal(t, "2024-01-01T00:00:00Z", relations[0].EndTime, "Relationship should be terminated")
+
+	orgID := fmt.Sprintf("%s_org", ministerID)
+	asOrgRels, err := client.GetRelatedEntities(ministerID, &models.Relationship{
+		RelatedEntityID: orgID,
+		Name:            "AS_ORGANISATION",
+	})
+	assert.NoError(t, err)
+	assert.Len(t, asOrgRels, 1, "Should find AS_ORGANISATION to org node")
+	assert.Equal(t, "2024-01-01T00:00:00Z", asOrgRels[0].EndTime, "AS_ORGANISATION should be terminated with the minister")
 }
 
 func TestMoveDepartment(t *testing.T) {
@@ -512,6 +564,7 @@ func TestRenameMinister(t *testing.T) {
 	newMinisterResults = utils.FilterByExactName(newMinisterResults, "Minister of Finance")
 	assert.Len(t, newMinisterResults, 1)
 	newMinisterID := newMinisterResults[0].ID
+	assertMinisterOrgStructure(t, newMinisterID)
 
 	// Find the old minister
 	oldMinisterResults, err := client.SearchEntities(&models.SearchCriteria{
@@ -564,6 +617,15 @@ func TestRenameMinister(t *testing.T) {
 	assert.NoError(t, err)
 	assert.Len(t, presidentRelations, 1)
 	assert.Equal(t, "2024-01-01T00:00:00Z", presidentRelations[0].EndTime)
+
+	oldOrgID := fmt.Sprintf("%s_org", oldMinisterID)
+	asOrgRels, err := client.GetRelatedEntities(oldMinisterID, &models.Relationship{
+		RelatedEntityID: oldOrgID,
+		Name:            "AS_ORGANISATION",
+	})
+	assert.NoError(t, err)
+	assert.Len(t, asOrgRels, 1, "old minister should have AS_ORGANISATION to org node")
+	assert.Equal(t, "2024-01-01T00:00:00Z", asOrgRels[0].EndTime, "AS_ORGANISATION should end when portfolio is renamed")
 
 	// Verify the new minister has the president relationship
 	newPresidentRelations, err := client.GetRelatedEntities(presidentID, &models.Relationship{
@@ -763,6 +825,7 @@ func TestMergeMinisters(t *testing.T) {
 	newMinisterResults = utils.FilterByExactName(newMinisterResults, "Minister of Finance and Education")
 	assert.Len(t, newMinisterResults, 1)
 	newMinisterID := newMinisterResults[0].ID
+	assertMinisterOrgStructure(t, newMinisterID)
 
 	// Find the old ministers
 	oldMinisterResults, err := client.SearchEntities(&models.SearchCriteria{

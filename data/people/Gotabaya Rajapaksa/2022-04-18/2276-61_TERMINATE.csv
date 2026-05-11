@@ -1,0 +1,4 @@
+transaction_id,parent,parent_type,child,child_type,role,date
+2276-61_tr_01,State Minister of Defence,stateMinister,Chamal Rajapaksa,citizen,minister,2022-04-18
+2276-61_tr_02,State Minister of Home Affairs,stateMinister,Chamal Rajapaksa,citizen,minister,2022-04-18
+2276-61_tr_10,State Minister of Provincial Councils and Local Government,stateMinister,Roshan Ranasinghe,citizen,minister,2022-04-18

@@ -50,7 +50,7 @@ func (c *Client) ProcessTransactions(dataDir string, processType string) error {
 			"minister":   0,
 			"department": 0,
 		}
-	} else if processType == "person" || processType == "secretary" {
+	} else if processType == "person" {
 		entityCounters = map[string]int{
 			"citizen": 0,
 		}
@@ -133,14 +133,11 @@ func (c *Client) ProcessTransactions(dataDir string, processType string) error {
 				effectiveChildType = "minister"
 			}
 			if (processType == "organisation" && (isMinisterType(childType) || childType == "department")) ||
-				(processType == "person" && childType == "citizen") ||
-				(processType == "secretary" && childType == "citizen") {
+				(processType == "person" && childType == "citizen") {
 				var err error
 
 				if processType == "person" && childType == "citizen" {
 					entityCounters[childType], err = c.AddPersonEntity(transaction, entityCounters)
-				} else if processType == "secretary" && childType == "citizen" {
-					entityCounters[childType], err = c.AddSecretaryEntity(transaction, entityCounters)
 				} else {
 					entityCounters[effectiveChildType], err = c.AddOrgEntity(transaction, entityCounters)
 				}
@@ -163,12 +160,6 @@ func (c *Client) ProcessTransactions(dataDir string, processType string) error {
 				fmt.Printf("Processed Terminate transaction: %s\n", transaction["transaction_id"])
 			} else if processType == "person" {
 				err := c.TerminatePersonEntity(transaction)
-				if err != nil {
-					return fmt.Errorf("failed to process terminate transaction %s: %w", transaction["transaction_id"], err)
-				}
-				fmt.Printf("Processed Terminate transaction: %s\n", transaction["transaction_id"])
-			} else if processType == "secretary" {
-				err := c.TerminateSecretaryEntity(transaction)
 				if err != nil {
 					return fmt.Errorf("failed to process terminate transaction %s: %w", transaction["transaction_id"], err)
 				}

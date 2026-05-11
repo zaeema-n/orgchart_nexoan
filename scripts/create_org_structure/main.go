@@ -1,3 +1,7 @@
+// create_org_structure/main.go backfills org-structure nodes for already-existing
+// ministers. New minister creation in the core transaction flow now creates this
+// structure inline, so this script is for legacy/backfill runs only.
+//
 // link_minister_orgs.go creates an "Organisation" node for every minister entity
 // (cabinetMinister or stateMinister) and links the minister to it via AS_ORGANISATION.
 //

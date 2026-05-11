@@ -141,6 +141,7 @@ func TestCreatePeople(t *testing.T) {
 			"parent_type":    tc.parentType,
 			"child_type":     tc.childType,
 			"rel_type":       tc.relType,
+			"role":           "minister",
 			"transaction_id": tc.transactionID,
 		}
 
@@ -380,6 +381,7 @@ func TestCreatePeopleWithManyMinisters(t *testing.T) {
 			"parent_type":    tc.parentType,
 			"child_type":     tc.childType,
 			"rel_type":       tc.relType,
+			"role":           "minister",
 			"transaction_id": tc.transactionID,
 			"president":      tc.president,
 		}
@@ -465,6 +467,7 @@ func TestTerminatePerson(t *testing.T) {
 			"parent_type":    tc.parentType,
 			"child_type":     tc.childType,
 			"rel_type":       tc.relType,
+			"role":           "minister",
 			"transaction_id": tc.transactionID,
 			"president":      tc.president,
 		}
@@ -542,6 +545,7 @@ func TestTerminatePerson(t *testing.T) {
 			"parent_type":    tc.parentType,
 			"child_type":     tc.childType,
 			"rel_type":       tc.relType,
+			"role":           "minister",
 			"transaction_id": tc.transactionID,
 			"president":      tc.president,
 		}
@@ -594,13 +598,14 @@ func TestTerminatePerson(t *testing.T) {
 		"child_type":  "citizen",
 		"rel_type":    "AS_APPOINTED",
 		"president":   "Ranil Wickremesinghe",
+		"role":        "minister",
 	}
 
 	// Terminate the person relationship
 	err := client.TerminatePersonEntity(transaction)
 	assert.NoError(t, err)
 
-	// Find the minister to verify the relationship
+	// Find the minister role node to verify the relationship.
 	ministerResults, err := client.SearchEntities(&models.SearchCriteria{
 		Kind: &models.Kind{
 			Major: "Organisation",
@@ -610,7 +615,7 @@ func TestTerminatePerson(t *testing.T) {
 	})
 	assert.NoError(t, err)
 	assert.Len(t, ministerResults, 1)
-	ministerID := ministerResults[0].ID
+	ministerNodeID := ministerResults[0].ID + "_minister"
 
 	// Find the department
 	personResults, err := client.SearchEntities(&models.SearchCriteria{
@@ -624,10 +629,10 @@ func TestTerminatePerson(t *testing.T) {
 	assert.Len(t, personResults, 1)
 	personID := personResults[0].ID
 
-	// Verify the relationship is terminated
-	allRelations, err := client.GetRelatedEntities(ministerID, &models.Relationship{
-		RelatedEntityID: personID,
-		Name:            "AS_APPOINTED",
+	// Verify the AS_ROLE relationship to minister node is terminated.
+	allRelations, err := client.GetRelatedEntities(personID, &models.Relationship{
+		RelatedEntityID: ministerNodeID,
+		Name:            "AS_ROLE",
 	})
 	assert.NoError(t, err)
 	found := false
@@ -703,6 +708,7 @@ func TestTerminateMultipleMinistersForPerson(t *testing.T) {
 			"parent_type":    tc.parentType,
 			"child_type":     tc.childType,
 			"rel_type":       tc.relType,
+			"role":           "minister",
 			"transaction_id": tc.transactionID,
 			"president":      tc.president,
 		}
@@ -784,6 +790,7 @@ func TestTerminateMultipleMinistersForPerson(t *testing.T) {
 			"parent_type":    tc.parentType,
 			"child_type":     tc.childType,
 			"rel_type":       tc.relType,
+			"role":           "minister",
 			"transaction_id": tc.transactionID,
 			"president":      tc.president,
 		}
@@ -830,6 +837,7 @@ func TestTerminateMultipleMinistersForPerson(t *testing.T) {
 			"child_type":  "citizen",
 			"rel_type":    "AS_APPOINTED",
 			"president":   "Ranil Wickremesinghe",
+			"role":        "minister",
 		}
 
 		// Terminate the relationship
@@ -848,10 +856,11 @@ func TestTerminateMultipleMinistersForPerson(t *testing.T) {
 		assert.Len(t, ministerResults, 1)
 		ministerID := ministerResults[0].ID
 
-		// Verify the relationship is terminated
-		allRelations, err := client.GetRelatedEntities(ministerID, &models.Relationship{
-			RelatedEntityID: personID,
-			Name:            "AS_APPOINTED",
+		// Verify the AS_ROLE relationship to this minister node is terminated.
+		ministerNodeID := ministerID + "_minister"
+		allRelations, err := client.GetRelatedEntities(personID, &models.Relationship{
+			RelatedEntityID: ministerNodeID,
+			Name:            "AS_ROLE",
 		})
 
 		assert.NoError(t, err)
@@ -864,7 +873,7 @@ func TestTerminateMultipleMinistersForPerson(t *testing.T) {
 		assert.True(t, found, "Should find the terminated relationship with %s", tc.ministerName)
 	}
 
-	// Verify the relationship with Tourism minister is still active
+	// Verify the relationship with Tourism minister node is still active.
 	tourismResults, err := client.SearchEntities(&models.SearchCriteria{
 		Kind: &models.Kind{
 			Major: "Organisation",
@@ -876,9 +885,10 @@ func TestTerminateMultipleMinistersForPerson(t *testing.T) {
 	assert.Len(t, tourismResults, 1)
 	tourismID := tourismResults[0].ID
 
-	tourismRelations, err := client.GetRelatedEntities(tourismID, &models.Relationship{
-		RelatedEntityID: personID,
-		Name:            "AS_APPOINTED",
+	tourismNodeID := tourismID + "_minister"
+	tourismRelations, err := client.GetRelatedEntities(personID, &models.Relationship{
+		RelatedEntityID: tourismNodeID,
+		Name:            "AS_ROLE",
 	})
 	assert.NoError(t, err)
 	var found bool
@@ -944,6 +954,7 @@ func TestMovePerson(t *testing.T) {
 			"parent_type":    tc.parentType,
 			"child_type":     tc.childType,
 			"rel_type":       tc.relType,
+			"role":           "minister",
 			"transaction_id": tc.transactionID,
 			"president":      tc.president,
 		}
@@ -1005,6 +1016,7 @@ func TestMovePerson(t *testing.T) {
 			"parent_type":    tc.parentType,
 			"child_type":     tc.childType,
 			"rel_type":       tc.relType,
+			"role":           "minister",
 			"transaction_id": tc.transactionID,
 			"president":      tc.president,
 		}
@@ -1033,6 +1045,7 @@ func TestMovePerson(t *testing.T) {
 		"type":       "AS_APPOINTED",
 		"date":       "2020-01-01",
 		"president":  "Ranil Wickremesinghe",
+		"role":       "minister",
 	}
 
 	// Move the person
@@ -1051,10 +1064,10 @@ func TestMovePerson(t *testing.T) {
 	assert.Len(t, oldMinisterResults, 1)
 	oldMinisterID := oldMinisterResults[0].ID
 
-	// Verify the old relationship is terminated
-	oldRelations, err := client.GetRelatedEntities(oldMinisterID, &models.Relationship{
-		RelatedEntityID: personID,
-		Name:            "AS_APPOINTED",
+	// Verify the old AS_ROLE relationship is terminated.
+	oldRelations, err := client.GetRelatedEntities(personID, &models.Relationship{
+		RelatedEntityID: oldMinisterID + "_minister",
+		Name:            "AS_ROLE",
 	})
 
 	assert.NoError(t, err)
@@ -1078,10 +1091,10 @@ func TestMovePerson(t *testing.T) {
 	assert.Len(t, newMinisterResults, 1)
 	newMinisterID := newMinisterResults[0].ID
 
-	// Verify the new relationship exists
-	newRelations, err := client.GetRelatedEntities(newMinisterID, &models.Relationship{
-		RelatedEntityID: personID,
-		Name:            "AS_APPOINTED",
+	// Verify the new AS_ROLE relationship exists.
+	newRelations, err := client.GetRelatedEntities(personID, &models.Relationship{
+		RelatedEntityID: newMinisterID + "_minister",
+		Name:            "AS_ROLE",
 	})
 
 	assert.NoError(t, err)
@@ -1158,6 +1171,7 @@ func TestSwapMultiplePeople(t *testing.T) {
 			"parent_type":    tc.parentType,
 			"child_type":     tc.childType,
 			"rel_type":       tc.relType,
+			"role":           "minister",
 			"transaction_id": tc.transactionID,
 			"president":      tc.president,
 		}
@@ -1235,6 +1249,7 @@ func TestSwapMultiplePeople(t *testing.T) {
 			"parent_type":    tc.parentType,
 			"child_type":     tc.childType,
 			"rel_type":       tc.relType,
+			"role":           "minister",
 			"transaction_id": tc.transactionID,
 			"president":      tc.president,
 		}
@@ -1300,28 +1315,21 @@ func TestSwapMultiplePeople(t *testing.T) {
 			"type":       "AS_APPOINTED",
 			"date":       move.date,
 			"president":  move.president,
+			"role":       "minister",
 		}
 
 		err := client.MovePerson(transaction)
 		assert.NoError(t, err)
 	}
 
-	// Verify all relationships after the swap
-	ministerNames := []string{
-		"Minister of Justice and Law and Order",
-		"Minister of Education and Vocational Development",
-		"Minister of Foreign Affairs and International Trade",
+	// Verify all relationships after the swap using person -> ministerRoleNode AS_ROLE edges.
+	expectedPersonToMinister := map[string]string{
+		"Alice Brown": "Minister of Justice and Law and Order",
+		"Bob Wilson":  "Minister of Education and Vocational Development",
+		"Carol Davis": "Minister of Foreign Affairs and International Trade",
 	}
 
-	expectedAssignments := map[string]string{
-		"Minister of Justice and Law and Order":               "Alice Brown",
-		"Minister of Education and Vocational Development":    "Bob Wilson",
-		"Minister of Foreign Affairs and International Trade": "Carol Davis",
-	}
-
-	for _, ministerName := range ministerNames {
-
-		// Find the minister
+	for personName, ministerName := range expectedPersonToMinister {
 		ministerResults, err := client.SearchEntities(&models.SearchCriteria{
 			Kind: &models.Kind{
 				Major: "Organisation",
@@ -1331,31 +1339,141 @@ func TestSwapMultiplePeople(t *testing.T) {
 		})
 		assert.NoError(t, err)
 		assert.Len(t, ministerResults, 1)
-		ministerID := ministerResults[0].ID
+		targetNodeID := ministerResults[0].ID + "_minister"
 
-		// Get all relationships
-		relations, err := client.GetRelatedEntities(ministerID, &models.Relationship{})
-
+		personRels, err := client.GetRelatedEntities(personIDs[personName], &models.Relationship{
+			Name: "AS_ROLE",
+		})
 		assert.NoError(t, err)
 
-		// Verify the current active relationship
-		expectedPerson := expectedAssignments[ministerName]
-		found := false
-		for _, rel := range relations {
-			if rel.RelatedEntityID == personIDs[expectedPerson] && rel.Name == "AS_APPOINTED" {
-				assert.Equal(t, "2021-01-01T00:00:00Z", rel.StartTime)
-				assert.Equal(t, "", rel.EndTime) // Should be active
-				found = true
-				break
+		activeFound := false
+		terminatedFound := false
+		for _, rel := range personRels {
+			if rel.RelatedEntityID == targetNodeID && rel.EndTime == "" {
+				activeFound = true
+			}
+			if rel.EndTime == "2021-01-01T00:00:00Z" {
+				terminatedFound = true
 			}
 		}
-		assert.True(t, found, "Should find active relationship for %s with %s", ministerName, expectedPerson)
+		assert.True(t, activeFound, "Should find active AS_ROLE for %s -> %s", personName, ministerName)
+		assert.True(t, terminatedFound, "Should have at least one terminated prior AS_ROLE for %s", personName)
+	}
+}
 
-		// Verify the old relationship is terminated
-		for _, rel := range relations {
-			if rel.EndTime != "" && rel.Name == "AS_APPOINTED" {
-				assert.Equal(t, "2021-01-01T00:00:00Z", rel.EndTime)
-			}
+func TestGovernmentRoleBasedAddTerminateMove(t *testing.T) {
+	personCounters := map[string]int{
+		"citizen": 0,
+	}
+
+	personName := "Government Role Test Person"
+	addTransaction := map[string]interface{}{
+		"transaction_id": "2999-01_tr_01",
+		"parent":         "Government of Sri Lanka",
+		"parent_type":    "government",
+		"child":          personName,
+		"child_type":     "citizen",
+		"role":           "president",
+		"date":           "2026-01-01",
+	}
+	_, err := client.AddPersonEntity(addTransaction, personCounters)
+	assert.NoError(t, err)
+
+	governmentResults, err := client.SearchEntities(&models.SearchCriteria{
+		Kind: &models.Kind{
+			Major: "Organisation",
+			Minor: "government",
+		},
+		Name: "Government of Sri Lanka",
+	})
+	assert.NoError(t, err)
+	assert.Len(t, governmentResults, 1)
+	governmentID := governmentResults[0].ID
+	presidentNodeID := governmentID + "_president"
+	primeMinisterNodeID := governmentID + "_prime_minister"
+
+	personResults, err := client.SearchEntities(&models.SearchCriteria{
+		Kind: &models.Kind{
+			Major: "Person",
+			Minor: "citizen",
+		},
+		Name: personName,
+	})
+	assert.NoError(t, err)
+	assert.Len(t, personResults, 1)
+	personID := personResults[0].ID
+
+	presidentRoleRels, err := client.GetRelatedEntities(personID, &models.Relationship{
+		Name:            "AS_ROLE",
+		RelatedEntityID: presidentNodeID,
+	})
+	assert.NoError(t, err)
+	assert.Len(t, presidentRoleRels, 1, "person should have AS_ROLE to government president node")
+	assert.Equal(t, "", presidentRoleRels[0].EndTime)
+
+	terminateTransaction := map[string]interface{}{
+		"transaction_id": "2999-01_tr_02",
+		"parent":         "Government of Sri Lanka",
+		"parent_type":    "government",
+		"child":          personName,
+		"child_type":     "citizen",
+		"role":           "president",
+		"date":           "2026-01-02",
+	}
+	err = client.TerminatePersonEntity(terminateTransaction)
+	assert.NoError(t, err)
+
+	presidentRoleRels, err = client.GetRelatedEntities(personID, &models.Relationship{
+		Name:            "AS_ROLE",
+		RelatedEntityID: presidentNodeID,
+	})
+	assert.NoError(t, err)
+	assert.Len(t, presidentRoleRels, 1)
+	assert.Equal(t, "2026-01-02T00:00:00Z", presidentRoleRels[0].EndTime)
+
+	reAddTransaction := map[string]interface{}{
+		"transaction_id": "2999-01_tr_03",
+		"parent":         "Government of Sri Lanka",
+		"parent_type":    "government",
+		"child":          personName,
+		"child_type":     "citizen",
+		"role":           "president",
+		"date":           "2026-01-03",
+	}
+	_, err = client.AddPersonEntity(reAddTransaction, personCounters)
+	assert.NoError(t, err)
+
+	moveTransaction := map[string]interface{}{
+		"transaction_id": "2999-01_tr_04",
+		"old_parent":     "Government of Sri Lanka",
+		"new_parent":     "Government of Sri Lanka",
+		"old_role":       "president",
+		"new_role":       "prime_minister",
+		"child":          personName,
+		"child_type":     "citizen",
+		"date":           "2026-01-04",
+	}
+	err = client.MovePerson(moveTransaction)
+	assert.Error(t, err)
+
+	presidentRoleRels, err = client.GetRelatedEntities(personID, &models.Relationship{
+		Name:            "AS_ROLE",
+		RelatedEntityID: presidentNodeID,
+	})
+	assert.NoError(t, err)
+	hasActivePresidentRole := false
+	for _, rel := range presidentRoleRels {
+		if rel.EndTime == "" {
+			hasActivePresidentRole = true
+			break
 		}
 	}
+	assert.True(t, hasActivePresidentRole, "president role should remain active when government move is unsupported")
+
+	primeMinisterRoleRels, err := client.GetRelatedEntities(personID, &models.Relationship{
+		Name:            "AS_ROLE",
+		RelatedEntityID: primeMinisterNodeID,
+	})
+	assert.NoError(t, err)
+	assert.Len(t, primeMinisterRoleRels, 0, "no prime minister role should be created by unsupported move")
 }

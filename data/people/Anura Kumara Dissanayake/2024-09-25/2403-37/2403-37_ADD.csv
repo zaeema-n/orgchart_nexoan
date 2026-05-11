@@ -1,2 +1,2 @@
-transaction_id,parent,parent_type,child,child_type,rel_type,date
-2403-37_tr_01,Government of Sri Lanka,government,Harini Amarasuriya,citizen,AS_PRIME_MINISTER,2024-09-25
+transaction_id,parent,parent_type,child,child_type,role,date
+2403-37_tr_01,Government of Sri Lanka,government,Harini Amarasuriya,citizen,prime_minister,2024-09-25

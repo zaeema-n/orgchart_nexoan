@@ -1,14 +1,14 @@
-transaction_id,parent,parent_type,child,child_type,rel_type,date
+transaction_id,parent,parent_type,child,child_type,role,date
 2095/17_tr_01,"Minister of Irrigation and Water Resources and Disaster
-Management",cabinetMinister,Duminda Dissanayake,person,AS_APPOINTED,2018-11-01
-2095/17_tr_02,Minister of Skills Development & Vocational Training,cabinetMinister,Dayasiri Jayasekara,person,AS_APPOINTED,2018-11-01
-2095/17_tr_03,"State Minister of Youth, Women & Child Affairs",state_minister,Ihala Medagama Piyasena Gamage,person,AS_APPOINTED,2018-11-01
-2095/17_tr_04,State Minister of Defence,state_minister,Lakshman Senewiratna,person,AS_APPOINTED,2018-11-01
-2095/17_tr_05,State Minister of Highways & Road Development,state_minister,M L A M Hizbullah,person,AS_APPOINTED,2018-11-01
-2095/17_tr_06,State Minister of Education & Higher Education,state_minister,Mohan Lal Grero,person,AS_APPOINTED,2018-11-01
-2095/17_tr_07,"State Minister of Provincial Councils, Local Government and Sports",state_minister,Radampala Gamage,person,AS_APPOINTED,2018-11-01
-2095/17_tr_08,Deputy Minister of Agriculture,deputy_minister,Angajan Ramanadan,person,AS_APPOINTED,2018-11-01
-2095/17_tr_09,Deputy Minister of Labour & Foreign Employment,deputy_minister,Manusha Nanayakkara,person,AS_APPOINTED,2018-11-01
-2095/17_tr_10,Deputy Minister of Justice & Prison Reforms,deputy_minister,Sarathi Dushmantha,person,AS_APPOINTED,2018-11-01
+Management",cabinetMinister,Duminda Dissanayake,person,minister,2018-11-01
+2095/17_tr_02,Minister of Skills Development & Vocational Training,cabinetMinister,Dayasiri Jayasekara,person,minister,2018-11-01
+2095/17_tr_03,"State Minister of Youth, Women & Child Affairs",state_minister,Ihala Medagama Piyasena Gamage,person,minister,2018-11-01
+2095/17_tr_04,State Minister of Defence,state_minister,Lakshman Senewiratna,person,minister,2018-11-01
+2095/17_tr_05,State Minister of Highways & Road Development,state_minister,M L A M Hizbullah,person,minister,2018-11-01
+2095/17_tr_06,State Minister of Education & Higher Education,state_minister,Mohan Lal Grero,person,minister,2018-11-01
+2095/17_tr_07,"State Minister of Provincial Councils, Local Government and Sports",state_minister,Radampala Gamage,person,minister,2018-11-01
+2095/17_tr_08,Deputy Minister of Agriculture,deputy_minister,Angajan Ramanadan,person,minister,2018-11-01
+2095/17_tr_09,Deputy Minister of Labour & Foreign Employment,deputy_minister,Manusha Nanayakkara,person,minister,2018-11-01
+2095/17_tr_10,Deputy Minister of Justice & Prison Reforms,deputy_minister,Sarathi Dushmantha,person,minister,2018-11-01
 2095/17_tr_11,"Deputy Minister of Resettlement, Rehabilitation &
-Northern Development",deputy_minister,Cader Cader Masthan,person,AS_APPOINTED,2018-11-01
+Northern Development",deputy_minister,Cader Cader Masthan,person,minister,2018-11-01

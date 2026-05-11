@@ -1,2 +1,2 @@
-transaction_id,old_parent,new_parent,child,type,date
-2236-56_tr_01,Minister of Finance,Minister of Economic Policies & Plan Implementation,Mahinda Rajapaksa,citizen,2021-07-16
+transaction_id,old_parent,new_parent,child,type,date,role
+2236-56_tr_01,Minister of Finance,Minister of Economic Policies & Plan Implementation,Mahinda Rajapaksa,citizen,2021-07-16,minister

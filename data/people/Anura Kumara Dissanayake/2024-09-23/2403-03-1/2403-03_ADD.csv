@@ -1,2 +1,2 @@
-transaction_id,parent,parent_type,child,child_type,rel_type,date
-2403-03-01_tr_01,Government of Sri Lanka,government,Anura Kumara Dissanayake,citizen,AS_PRESIDENT,2024-09-23
+transaction_id,parent,parent_type,child,child_type,role,date
+2403-03-01_tr_01,Government of Sri Lanka,government,Anura Kumara Dissanayake,citizen,president,2024-09-23

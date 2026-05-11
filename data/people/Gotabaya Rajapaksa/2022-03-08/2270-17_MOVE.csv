@@ -1,4 +1,4 @@
-transaction_id,old_parent,new_parent,child,type,date
-2270-17_tr_01,Minister of Transport,Minister of Power,Pavithra Devi Vanniarachchi,citizen,2022-03-08
-2270-17_tr_02,Minister of Power,Minister of Energy,Gamini Lokuge,citizen,2022-03-08
-2270-17_tr_04,State Minister of Community Police Services,Minister of Transport,Dilum Amunugama,citizen,2022-03-08
+transaction_id,old_parent,new_parent,child,type,date,role
+2270-17_tr_01,Minister of Transport,Minister of Power,Pavithra Devi Vanniarachchi,citizen,2022-03-08,minister
+2270-17_tr_02,Minister of Power,Minister of Energy,Gamini Lokuge,citizen,2022-03-08,minister
+2270-17_tr_04,State Minister of Community Police Services,Minister of Transport,Dilum Amunugama,citizen,2022-03-08,minister

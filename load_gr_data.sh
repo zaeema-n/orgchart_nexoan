@@ -105,8 +105,16 @@
 
 ./orgchart -data "$(pwd)/data/people/Gotabaya Rajapaksa/2022-03-15/" -type person
 
+./orgchart -data "$(pwd)/data/people/Gotabaya Rajapaksa/2022-04-03/" -type person
+./orgchart -data "$(pwd)/data/people/Gotabaya Rajapaksa/2022-04-04/" -type person
+
 ./orgchart -data "$(pwd)/data/people/Gotabaya Rajapaksa/2022-04-07/2274-25/" -type person
 ./orgchart -data "$(pwd)/data/people/Gotabaya Rajapaksa/2022-04-07/2274-26/" -type person
+
+./orgchart -data "$(pwd)/data/people/Gotabaya Rajapaksa/2022-04-18/" -type person
+
+./orgchart -data "$(pwd)/data/orgchart/Gotabaya Rajapaksa/2022-04-22/2276-63/"
+./orgchart -data "$(pwd)/data/orgchart/Gotabaya Rajapaksa/2022-04-22/2276-64/"
 
 ./orgchart -data "$(pwd)/data/people/Gotabaya Rajapaksa/2022-04-22/2276-42/" -type person
 ./orgchart -data "$(pwd)/data/people/Gotabaya Rajapaksa/2022-04-22/2276-60/" -type person
@@ -117,15 +125,20 @@
 
 ./orgchart -data "$(pwd)/data/orgchart/Gotabaya Rajapaksa/2022-04-28/"
 
-./orgchart -data "$(pwd)/data/people/Gotabaya Rajapaksa/2022-04-22/2276-63/2276-63-2/" -type person
-./orgchart -data "$(pwd)/data/people/Gotabaya Rajapaksa/2022-04-22/2276-64/2276-64-2/" -type person
+#! This should not be here
+# ./orgchart -data "$(pwd)/data/people/Gotabaya Rajapaksa/2022-04-22/2276-63/2276-63-2/" -type person
+# ./orgchart -data "$(pwd)/data/people/Gotabaya Rajapaksa/2022-04-22/2276-64/2276-64-2/" -type person
 
 ./orgchart -data "$(pwd)/data/people/Gotabaya Rajapaksa/2022-05-04/" -type person
 ./orgchart -data "$(pwd)/data/people/Gotabaya Rajapaksa/2022-05-09/" -type person
 ./orgchart -data "$(pwd)/data/people/Gotabaya Rajapaksa/2022-05-12/" -type person
 
 ./orgchart -data "$(pwd)/data/people/Gotabaya Rajapaksa/2022-05-14/" -type person
+
+./orgchart -data "$(pwd)/data/orgchart/Gotabaya Rajapaksa/2022-05-24/"
 ./orgchart -data "$(pwd)/data/people/Gotabaya Rajapaksa/2022-05-24/" -type person
+
+./orgchart -data "$(pwd)/data/orgchart/Gotabaya Rajapaksa/2022-05-26/"
 ./orgchart -data "$(pwd)/data/people/Gotabaya Rajapaksa/2022-05-26/2281-31/" -type person
 
 ./orgchart -data "$(pwd)/data/orgchart/Gotabaya Rajapaksa/2022-05-27/"

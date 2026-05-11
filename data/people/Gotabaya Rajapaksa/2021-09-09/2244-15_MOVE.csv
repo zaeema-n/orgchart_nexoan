@@ -1,7 +1,7 @@
-transaction_id,old_parent,new_parent,child,type,date
-2244-15_tr_01,Minister of Education,Foreign Minister,G. L. Peiris,citizen,2021-09-09
-2244-15_tr_02,Minister of Health,Minister of Transport,Pavithra Devi Vanniarachchi,citizen,2021-09-09
-2244-15_tr_03,Foreign Minister,Minister of Education,Dinesh Chandra Rupasingha Gunawardena,citizen,2021-09-09
-2244-15_tr_04,Minister of Transport,Minister of Power,Gamini Lokuge,citizen,2021-09-09
-2244-15_tr_05,Minister of Mass Media,Minister of Health,Keheliya Rambukwella,citizen,2021-09-09
-2244-15_tr_06,Minister of Power,Minister of Mass Media,Dullas Alahapperuma,citizen,2021-09-09
+transaction_id,old_parent,new_parent,child,type,date,role
+2244-15_tr_01,Minister of Education,Foreign Minister,G. L. Peiris,citizen,2021-09-09,minister
+2244-15_tr_02,Minister of Health,Minister of Transport,Pavithra Devi Vanniarachchi,citizen,2021-09-09,minister
+2244-15_tr_03,Foreign Minister,Minister of Education,Dinesh Chandra Rupasingha Gunawardena,citizen,2021-09-09,minister
+2244-15_tr_04,Minister of Transport,Minister of Power,Gamini Lokuge,citizen,2021-09-09,minister
+2244-15_tr_05,Minister of Mass Media,Minister of Health,Keheliya Rambukwella,citizen,2021-09-09,minister
+2244-15_tr_06,Minister of Power,Minister of Mass Media,Dullas Alahapperuma,citizen,2021-09-09,minister

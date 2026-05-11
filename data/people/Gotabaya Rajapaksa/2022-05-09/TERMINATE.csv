@@ -1,2 +1,2 @@
-transaction_id,parent,parent_type,child,child_type,rel_type,date
-2279-12_tr_01,Government of Sri Lanka,government,Mahinda Rajapaksa,citizen,AS_PRIME_MINISTER,2022-05-09
+transaction_id,parent,parent_type,child,child_type,role,date
+2279-12_tr_01,Government of Sri Lanka,government,Mahinda Rajapaksa,citizen,prime_minister,2022-05-09

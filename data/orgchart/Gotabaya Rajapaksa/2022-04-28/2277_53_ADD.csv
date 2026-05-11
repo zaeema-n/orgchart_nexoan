@@ -1,13 +1,7 @@
 transaction_id,parent,parent_type,child,child_type,rel_type,date
 2277-53_tr_02,Minister of Technology,cabinetMinister,Colombo Lotus Tower Management Company (Pvt.) Limited,department,AS_DEPARTMENT,2022-04-28
 2277-53_tr_03,Minister of Technology,cabinetMinister,Techno Park Development Company (Pvt.) Limited,department,AS_DEPARTMENT,2022-04-28
-2277-53_tr_41,Gotabaya Rajapaksa,citizen,State Minister of Higher Education,stateMinister,AS_MINISTER,2022-04-28
-2277-53_tr_51,Gotabaya Rajapaksa,citizen,State Minister of Health,stateMinister,AS_MINISTER,2022-04-28
 2277-53_tr_84,Minister of Highways,cabinetMinister,Sahasya Investments Limited,department,AS_DEPARTMENT,2022-04-28
 2277-53_tr_90,Minister of Trade,cabinetMinister,Sri Lanka State Trading (General) Corporation,department,AS_DEPARTMENT,2022-04-28
 2277-53_tr_91,Minister of Trade,cabinetMinister,Regional Economic Centres,department,AS_DEPARTMENT,2022-04-28
-2277-53_tr_92,Gotabaya Rajapaksa,citizen,State Minister of Trade,stateMinister,AS_MINISTER,2022-04-28
 2277-53_tr_100,State Minister of Industries,stateMinister,Ape Gama - Office Premises,department,AS_DEPARTMENT,2022-04-28
-2277-53_tr_81,Gotabaya Rajapaksa,citizen,State Minister of Development of Minor Export Crops Plantation,stateMinister,AS_MINISTER,2022-04-28
-2277-53_tr_101,Gotabaya Rajapaksa,citizen,State Minister of Highways,stateMinister,AS_MINISTER,2022-04-28
-2277-53_tr_13,Gotabaya Rajapaksa,citizen,State Minister of Housing,stateMinister,AS_MINISTER,2022-04-28

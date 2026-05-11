@@ -1,2 +1,2 @@
-transaction_id,parent,parent_type,child,child_type,rel_type,date
-2149-34_tr_01,Government of Sri Lanka,government,Gotabaya Rajapaksa,citizen,AS_PRESIDENT,2019-11-17
+transaction_id,parent,parent_type,child,child_type,role,date
+2149-34_tr_01,Government of Sri Lanka,government,Gotabaya Rajapaksa,citizen,president,2019-11-17

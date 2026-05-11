@@ -1,2 +1,2 @@
-transaction_id,old_parent,new_parent,child,type,date
-2203-33_tr_04,State Minister of Provincial Councils and Local Government,Minister of Public Security,Sarath Weerasekara,citizen,2020-11-26
+transaction_id,old_parent,new_parent,child,type,date,role
+2203-33_tr_04,State Minister of Provincial Councils and Local Government,Minister of Public Security,Sarath Weerasekara,citizen,2020-11-26,minister

@@ -1,2 +1,2 @@
-transaction_id,parent,parent_type,child,child_type,rel_type,date,president
-1114-04_tr_01,Minister of Health,minister,George Washington,citizen,AS_APPOINTED,2025-01-06,:RW
+transaction_id,parent,parent_type,child,child_type,role,date,president
+1114-04_tr_01,Minister of Health,minister,George Washington,citizen,minister,2025-01-06,:RW

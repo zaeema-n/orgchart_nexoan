@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Backfill utility: use this script for existing data created before inline org-structure
+# creation was added to the main transaction flow.
+#
 # Step 1: Creates an organisation structure for each minister with the following structure:
 # Minister A -> Organisation -> Minister -> Secretary
 

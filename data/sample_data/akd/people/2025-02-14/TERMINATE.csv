@@ -1,2 +1,2 @@
-transaction_id,parent,parent_type,child,child_type,rel_type,date,president
-1131-00_tr_01,Minister of Finance and Economy,minister,Vibhatha Abeykoon,citizen,AS_APPOINTED,2025-02-14,:AK
+transaction_id,parent,parent_type,child,child_type,role,date,president
+1131-00_tr_01,Minister of Finance and Economy,minister,Vibhatha Abeykoon,citizen,minister,2025-02-14,:AK

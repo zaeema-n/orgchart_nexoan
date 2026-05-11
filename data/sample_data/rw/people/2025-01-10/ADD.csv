@@ -1,2 +1,2 @@
-transaction_id,parent,parent_type,child,child_type,rel_type,date,president
-1115-05_tr_01,Minister of Finance,minister,Hamilton,citizen,AS_APPOINTED,2025-01-10,:RW
+transaction_id,parent,parent_type,child,child_type,role,date,president
+1115-05_tr_01,Minister of Finance,minister,Hamilton,citizen,minister,2025-01-10,:RW
