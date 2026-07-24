@@ -1,0 +1,5 @@
+transaction_id,parent,parent_type,child,child_type,rel_type,date
+2401-18_tr_23,Ranil Wickremesinghe,citizen,State Minister of Power and Energy,stateMinister,AS_MINISTER,2024-09-10
+2401-18_tr_24,Ranil Wickremesinghe,citizen,State Minister of Small and Medium Enterprises Development,stateMinister,AS_MINISTER,2024-09-10
+2401-18_tr_25,Ranil Wickremesinghe,citizen,State Minister of Women and Child Affairs,stateMinister,AS_MINISTER,2024-09-10
+2401-18_tr_26,Ranil Wickremesinghe,citizen,State Minister of Irrigation and Water Supply,stateMinister,AS_MINISTER,2024-09-10

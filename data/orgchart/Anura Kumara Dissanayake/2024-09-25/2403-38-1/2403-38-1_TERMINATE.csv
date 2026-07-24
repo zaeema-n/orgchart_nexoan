@@ -388,7 +388,7 @@ transaction_id,parent,parent_type,child,child_type,rel_type,date
 2403-38-01_tr_387,State Minister of Higher Education,stateMinister,Buddhist and Pali University of Sri Lanka,department,AS_DEPARTMENT,2024-09-25
 2403-38-01_tr_388,State Minister of Higher Education,stateMinister,Sri Lanka Institute of Advanced Technological Education,department,AS_DEPARTMENT,2024-09-25
 2403-38-01_tr_389,State Minister of Higher Education,stateMinister,University Grants Commission,department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_390,State Minister of Highways,stateMinister,Subsidiaries and affiliates under the Road Development Authority,department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_390,Minister of Transport and Highways,cabinetMinister,Subsidiaries and affiliates under the Road Development Authority,department,AS_DEPARTMENT,2024-09-25
 2403-38-01_tr_391,State Minister of Indigenous Medicine,stateMinister,Ayurveda Teaching and Research Hospitals,department,AS_DEPARTMENT,2024-09-25
 2403-38-01_tr_392,State Minister of Indigenous Medicine,stateMinister,Ayurvedic College and Hospital Board,department,AS_DEPARTMENT,2024-09-25
 2403-38-01_tr_393,State Minister of Indigenous Medicine,stateMinister,Ayurvedic Medical Council,department,AS_DEPARTMENT,2024-09-25
@@ -399,17 +399,17 @@ transaction_id,parent,parent_type,child,child_type,rel_type,date
 2403-38-01_tr_398,State Minister of Mass Media,stateMinister,Department of Government Printing,department,AS_DEPARTMENT,2024-09-25
 2403-38-01_tr_399,State Minister of Mass Media,stateMinister,Department of Posts,department,AS_DEPARTMENT,2024-09-25
 2403-38-01_tr_400,State Minister of Mass Media,stateMinister,Sri Lanka Institute of Printing,department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_401,State Minister of Power and Energy,stateMinister,Ceylon Electricity Board,department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_402,State Minister of Power and Energy,stateMinister,Ceylon Petroleum Corporation,department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_403,State Minister of Power and Energy,stateMinister,Ceylon Petroleum Storage Terminal Ltd.,department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_404,State Minister of Power and Energy,stateMinister,LTL Holdings (Pvt.) Ltd.,department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_405,State Minister of Power and Energy,stateMinister,Lanka Coal Company (Pvt) Ltd,department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_406,State Minister of Power and Energy,stateMinister,Lanka Electricity Company,department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_407,State Minister of Power and Energy,stateMinister,Petroleum Development Authority of Sri Lanka,department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_408,State Minister of Power and Energy,stateMinister,Sri Lanka Atomic Energy Board,department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_409,State Minister of Power and Energy,stateMinister,Sri Lanka Atomic Energy Regulatory Council,department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_410,State Minister of Power and Energy,stateMinister,Sri Lanka Sustainable Energy Authority,department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_411,State Minister of Power and Energy,stateMinister,Trinco Petroleum Terminal (Pvt) Ltd.,department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_401,Minister of Power and Energy,cabinetMinister,Ceylon Electricity Board,department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_402,Minister of Power and Energy,cabinetMinister,Ceylon Petroleum Corporation,department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_403,Minister of Power and Energy,cabinetMinister,Ceylon Petroleum Storage Terminal Ltd.,department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_404,Minister of Power and Energy,cabinetMinister,LTL Holdings (Pvt.) Ltd.,department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_405,Minister of Power and Energy,cabinetMinister,Lanka Coal Company (Pvt) Ltd,department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_406,Minister of Power and Energy,cabinetMinister,Lanka Electricity Company,department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_407,Minister of Power and Energy,cabinetMinister,Petroleum Development Authority of Sri Lanka,department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_408,Minister of Power and Energy,cabinetMinister,Sri Lanka Atomic Energy Board,department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_409,Minister of Power and Energy,cabinetMinister,Sri Lanka Atomic Energy Regulatory Council,department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_410,Minister of Power and Energy,cabinetMinister,Sri Lanka Sustainable Energy Authority,department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_411,Minister of Power and Energy,cabinetMinister,Trinco Petroleum Terminal (Pvt) Ltd.,department,AS_DEPARTMENT,2024-09-25
 2403-38-01_tr_412,State Minister of Primary Industries,stateMinister,Ceylon Ceramics Corporation (Brick and Tiles Division),department,AS_DEPARTMENT,2024-09-25
 2403-38-01_tr_413,State Minister of Primary Industries,stateMinister,Gem and Jewellery Research and Training Institute,department,AS_DEPARTMENT,2024-09-25
 2403-38-01_tr_414,State Minister of Primary Industries,stateMinister,Kahagolla Engineering Services Company Ltd. (KESCO),department,AS_DEPARTMENT,2024-09-25
@@ -422,17 +422,17 @@ transaction_id,parent,parent_type,child,child_type,rel_type,date
 2403-38-01_tr_421,State Minister of Primary Industries,stateMinister,National Paper Corporation Ltd.,department,AS_DEPARTMENT,2024-09-25
 2403-38-01_tr_422,State Minister of Rural Road Development,stateMinister,Maga Neguma Section,department,AS_DEPARTMENT,2024-09-25
 2403-38-01_tr_423,State Minister of Rural Road Development,stateMinister,State Development and Construction Corporation,department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_424,State Minister of Small and Medium Enterprises Development,stateMinister,Department of Textile Industries,department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_425,State Minister of Small and Medium Enterprises Development,stateMinister,Lanka Salusala Ltd.,department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_426,State Minister of Small and Medium Enterprises Development,stateMinister,Lanka Textile Mills Emporium Ltd.,department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_427,State Minister of Small and Medium Enterprises Development,stateMinister,National Crafts Council,department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_428,State Minister of Small and Medium Enterprises Development,stateMinister,National Design Centre,department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_429,State Minister of Small and Medium Enterprises Development,stateMinister,National Enterprise Development Authority,department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_430,State Minister of Small and Medium Enterprises Development,stateMinister,SME Authority,department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_431,State Minister of Small and Medium Enterprises Development,stateMinister,SME Venture Capital Company,department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_432,State Minister of Small and Medium Enterprises Development,stateMinister,Sri Lanka Handicraft Board (Laksala),department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_433,State Minister of Small and Medium Enterprises Development,stateMinister,Sri Lanka Institute of Textile and Apparels,department,AS_DEPARTMENT,2024-09-25
-2403-38-01_tr_434,State Minister of Small and Medium Enterprises Development,stateMinister,Timber-related Design Centre,department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_424,Minister of Industries,cabinetMinister,Department of Textile Industries,department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_425,Minister of Industries,cabinetMinister,Lanka Salusala Ltd.,department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_426,Minister of Industries,cabinetMinister,Lanka Textile Mills Emporium Ltd.,department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_427,Minister of Industries,cabinetMinister,National Crafts Council,department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_428,Minister of Industries,cabinetMinister,National Design Centre,department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_429,Minister of Industries,cabinetMinister,National Enterprise Development Authority,department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_430,Minister of Industries,cabinetMinister,SME Authority,department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_431,Minister of Industries,cabinetMinister,SME Venture Capital Company,department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_432,Minister of Industries,cabinetMinister,Sri Lanka Handicraft Board (Laksala),department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_433,Minister of Industries,cabinetMinister,Sri Lanka Institute of Textile and Apparels,department,AS_DEPARTMENT,2024-09-25
+2403-38-01_tr_434,Minister of Industries,cabinetMinister,Timber-related Design Centre,department,AS_DEPARTMENT,2024-09-25
 2403-38-01_tr_435,State Minister of Sports and Youth Affairs,stateMinister,Institute of Sports Medicine,department,AS_DEPARTMENT,2024-09-25
 2403-38-01_tr_436,State Minister of Sports and Youth Affairs,stateMinister,"Mahinda Rajapaksa International Sports Complex, Diyagama",department,AS_DEPARTMENT,2024-09-25
 2403-38-01_tr_437,State Minister of Sports and Youth Affairs,stateMinister,National Centre for Leadership Development,department,AS_DEPARTMENT,2024-09-25
@@ -490,31 +490,24 @@ transaction_id,parent,parent_type,child,child_type,rel_type,date
 2403-38-01_tr_489,Anura Kumara Dissanayake,citizen,State Minister of Labour,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_490,Anura Kumara Dissanayake,citizen,State Minister of Trade and Environment,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_491,Anura Kumara Dissanayake,citizen,"State Minister of Provincial Councils, Local Government and Environment",stateMinister,AS_MINISTER,2024-09-25
-2403-38-01_tr_492,Anura Kumara Dissanayake,citizen,State Minister of Irrigation and Water Supply,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_493,Anura Kumara Dissanayake,citizen,State Minister of Plantation Industries and Mahaweli Development,stateMinister,AS_MINISTER,2024-09-25
-2403-38-01_tr_494,Anura Kumara Dissanayake,citizen,State Minister of Ports and Aviation,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_495,Anura Kumara Dissanayake,citizen,State Minister of Social Empowerment,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_496,Anura Kumara Dissanayake,citizen,State Minister of Primary Industries,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_497,Anura Kumara Dissanayake,citizen,State Minister of Tourism,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_498,Anura Kumara Dissanayake,citizen,State Minister of Rural Road Development,stateMinister,AS_MINISTER,2024-09-25
-2403-38-01_tr_499,Anura Kumara Dissanayake,citizen,State Minister of Women and Child Affairs,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_500,Anura Kumara Dissanayake,citizen,State Minister of Education,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_501,Anura Kumara Dissanayake,citizen,State Minister of Home Affairs,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_502,Anura Kumara Dissanayake,citizen,State Minister of Rural Economy,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_503,Anura Kumara Dissanayake,citizen,State Minister of Livestock Development,stateMinister,AS_MINISTER,2024-09-25
-2403-38-01_tr_504,Anura Kumara Dissanayake,citizen,State Minister of Small and Medium Enterprises Development,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_505,Anura Kumara Dissanayake,citizen,State Minister of Fisheries,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_506,Anura Kumara Dissanayake,citizen,State Minister of Indigenous Medicine,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_507,Anura Kumara Dissanayake,citizen,State Minister of Justice and Prison Affairs,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_508,Anura Kumara Dissanayake,citizen,State Minister of Mass Media,stateMinister,AS_MINISTER,2024-09-25
-2403-38-01_tr_509,Anura Kumara Dissanayake,citizen,State Minister of Highways,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_510,Anura Kumara Dissanayake,citizen,State Minister of Water Supply,stateMinister,AS_MINISTER,2024-09-25
-2403-38-01_tr_511,Anura Kumara Dissanayake,citizen,State Minister of Power and Energy,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_512,Anura Kumara Dissanayake,citizen,State Minister of Foreign Affairs,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_513,Anura Kumara Dissanayake,citizen,State Minister of Piriven Education,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_514,Anura Kumara Dissanayake,citizen,State Minister of Defence,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_515,Anura Kumara Dissanayake,citizen,State Minister of Urban Development and Housing,stateMinister,AS_MINISTER,2024-09-25
-2403-38-01_tr_516,Anura Kumara Dissanayake,citizen,State Minister of Agriculture,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_517,Anura Kumara Dissanayake,citizen,State Minister of Technology,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_518,Anura Kumara Dissanayake,citizen,State Minister of Investment Promotion,stateMinister,AS_MINISTER,2024-09-25
 2403-38-01_tr_519,Anura Kumara Dissanayake,citizen,State Minister of Transport,stateMinister,AS_MINISTER,2024-09-25

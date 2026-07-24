@@ -13,12 +13,12 @@ transaction_id,parent,parent_type,child,child_type,rel_type,date
 2290-17_tr_12,Minister of Plantation Industries,cabinetMinister,Ramesh Pathirana,citizen,AS_APPOINTED,2022-07-26
 2290-17_tr_13,Minister of Industries,cabinetMinister,Ramesh Pathirana,citizen,AS_APPOINTED,2022-07-26
 2290-17_tr_14,Minister of Urban Development and Housing,cabinetMinister,Prasanna Ranatunga,citizen,AS_APPOINTED,2022-07-26
-2290-17_tr_15,Minister of Foreign Affairs,cabinetMinister,Ali Sabri,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_15,Minister of Foreign Affairs,cabinetMinister,Ali Sabry,citizen,AS_APPOINTED,2022-07-26
 2290-17_tr_16,"Minister of Buddhasasana, Religious and Cultural Affairs",cabinetMinister,Vidura Wickramanayaka,citizen,AS_APPOINTED,2022-07-26
 2290-17_tr_17,Minister of Power and Energy,cabinetMinister,Kanchana Wijesekera,citizen,AS_APPOINTED,2022-07-26
 2290-17_tr_18,Minister of Environment,cabinetMinister,Ahamed Zenulabdeen Naseer,citizen,AS_APPOINTED,2022-07-26
-2290-17_tr_19,Minister of Sports and Youth Affairs,cabinetMinister,Anuruddha Ranasinghe Arachchige Roshan,citizen,AS_APPOINTED,2022-07-26
-2290-17_tr_20,Minister of Irrigation,cabinetMinister,Anuruddha Ranasinghe Arachchige Roshan,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_19,Minister of Sports and Youth Affairs,cabinetMinister,Roshan Ranasinghe,citizen,AS_APPOINTED,2022-07-26
+2290-17_tr_20,Minister of Irrigation,cabinetMinister,Roshan Ranasinghe,citizen,AS_APPOINTED,2022-07-26
 2290-17_tr_21,Minister of Labour and Foreign Employment,cabinetMinister,Maligaspe Koralege Nalin Manusha Nanayakkara,citizen,AS_APPOINTED,2022-07-26
 2290-17_tr_22,Minister of Public Security,cabinetMinister,Tiran Alles,citizen,AS_APPOINTED,2022-07-26
 2290-17_tr_23,"Minister of Trade, Commerce and Food Security",cabinetMinister,Kachchakaduge Nalin Ruwanjiwa Fernando,citizen,AS_APPOINTED,2022-07-26

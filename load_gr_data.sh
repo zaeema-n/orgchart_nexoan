@@ -123,6 +123,9 @@
 ./orgchart -data "$(pwd)/data/orgchart/Gotabaya Rajapaksa/2022-03-08/"
 
 ./orgchart -data "$(pwd)/data/people/Gotabaya Rajapaksa/2022-03-08/" -type person
+# Vacant cleanup: terminate Community Police after Dilum Amunugama leaves
+./orgchart -data "$(pwd)/data/orgchart/Gotabaya Rajapaksa/2022-03-08/2270-17/"
+
 ./orgchart -data "$(pwd)/data/people/Gotabaya Rajapaksa/2022-03-09/" -type person
 
 ./orgchart -data "$(pwd)/data/orgchart/Gotabaya Rajapaksa/2022-03-14/"

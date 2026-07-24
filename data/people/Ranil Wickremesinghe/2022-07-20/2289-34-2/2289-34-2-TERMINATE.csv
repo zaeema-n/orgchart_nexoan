@@ -2,7 +2,7 @@ transaction_id,parent,parent_type,child,child_type,rel_type,date
 2289-34-2_tr_01,Minister of Investment Promotion,cabinetMinister,Kulappu Arachchige Don Dhammika Perera,citizen,AS_APPOINTED,2022-07-20
 2289-34-2_tr_02,"Minister of Trade, Commerce and Food Security",cabinetMinister,Kachchakaduge Nalin Ruwanjiwa Fernando,citizen,AS_APPOINTED,2022-07-20
 2289-34-2_tr_03,Minister of Labour and Foreign Employment,cabinetMinister,Maligaspe Koralege Nalin Manusha Nanayakkara,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_04,Minister of Sports and Youth Affairs,cabinetMinister,Anuruddha Ranasinghe Arachchige Roshan,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_04,Minister of Sports and Youth Affairs,cabinetMinister,Roshan Ranasinghe,citizen,AS_APPOINTED,2022-07-20
 2289-34-2_tr_05,Minister of Power & Energy,cabinetMinister,Kanchana Wijesekera,citizen,AS_APPOINTED,2022-07-20
 2289-34-2_tr_06,Minister of Tourism and Lands,cabinetMinister,Nalaka Jude Hareen Fernando,citizen,AS_APPOINTED,2022-07-20
 2289-34-2_tr_07,"Minister of Justice, Prisons Affairs and Constitutional Reforms",cabinetMinister,Wijayadasa Rajapaksh,citizen,AS_APPOINTED,2022-07-20
@@ -18,7 +18,7 @@ transaction_id,parent,parent_type,child,child_type,rel_type,date
 2289-34-2_tr_17,Minister of Industries,cabinetMinister,Ramesh Pathirana,citizen,AS_APPOINTED,2022-07-20
 2289-34-2_tr_18,Minister of Water Supply,cabinetMinister,Keheliya Rambukwella,citizen,AS_APPOINTED,2022-07-20
 2289-34-2_tr_19,Minister of Fisheries,cabinetMinister,Douglas Devananda,citizen,AS_APPOINTED,2022-07-20
-2289-34-2_tr_20,Minister of Irrigation,cabinetMinister,Anuruddha Ranasinghe Arachchige Roshan,citizen,AS_APPOINTED,2022-07-20
+2289-34-2_tr_20,Minister of Irrigation,cabinetMinister,Roshan Ranasinghe,citizen,AS_APPOINTED,2022-07-20
 2289-34-2_tr_21,Minister of Agriculture,cabinetMinister,Mahinda Amaraweera,citizen,AS_APPOINTED,2022-07-20
 2289-34-2_tr_22,Minister of Environment,cabinetMinister,Ahamed Zenulabdeen Naseer,citizen,AS_APPOINTED,2022-07-20
 2289-34-2_tr_23,Minister of Health,cabinetMinister,Keheliya Rambukwella,citizen,AS_APPOINTED,2022-07-20

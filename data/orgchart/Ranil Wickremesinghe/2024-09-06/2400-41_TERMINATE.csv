@@ -1,0 +1,4 @@
+transaction_id,parent,parent_type,child,child_type,rel_type,date
+2400-41_tr_02,Ranil Wickremesinghe,citizen,State Minister of Agriculture,stateMinister,AS_MINISTER,2024-09-06
+2400-41_tr_03,Ranil Wickremesinghe,citizen,State Minister of Highways,stateMinister,AS_MINISTER,2024-09-06
+2400-41_tr_04,Ranil Wickremesinghe,citizen,State Minister of Ports and Aviation,stateMinister,AS_MINISTER,2024-09-06

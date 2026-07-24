@@ -79,7 +79,10 @@
 ./orgchart -data "$(pwd)/data/people/Ranil Wickremesinghe/2024-08-23/2398-47/" -type person
 
 ./orgchart -data "$(pwd)/data/people/Ranil Wickremesinghe/2024-09-06/" -type person
+./orgchart -data "$(pwd)/data/orgchart/Ranil Wickremesinghe/2024-09-06/"
+
 ./orgchart -data "$(pwd)/data/people/Ranil Wickremesinghe/2024-09-10/" -type person
+./orgchart -data "$(pwd)/data/orgchart/Ranil Wickremesinghe/2024-09-10/"
 
 ./orgchart -data "$(pwd)/data/orgchart/Ranil Wickremesinghe/2024-09-13/"
 
